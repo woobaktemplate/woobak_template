@@ -1,0 +1,376 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="">
+  <meta name="author" content="">
+
+  <title>Woobak Templates</title>
+
+  <!-- css -->
+  <link rel="stylesheet" href="{% static 'home/bootstrap.min.css' %}">
+
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+  <link href="http://fonts.googleapis.com/earlyaccess/jejugothic.css" rel="stylesheet">
+
+  <link href="{% static 'css/font-awesome.css' %}" rel="stylesheet" type="text/css" />
+  <link href="{% static 'css/nivo-lightbox.css' %}" rel="stylesheet" />
+  <link href="{% static 'css/nivo-lightbox-theme/default/default.css' %}" rel="stylesheet" type="text/css" />
+  <link href="{% static 'css/animations.css' %}" rel="stylesheet" />
+  <link href="{% static 'css/home-style.css' %}" rel="stylesheet">
+  <link href="{% static 'css/default.css' %}" rel="stylesheet">
+  <!-- =======================================================
+    Theme Name: Bocor
+    Theme URL: https://bootstrapmade.com/bocor-bootstrap-template-nice-animation/
+    Author: BootstrapMade
+    Author URL: https://bootstrapmade.com
+  ======================================================= -->
+
+</head>
+
+<body id="page-top" data-spy="scroll" data-target=".navbar-custom">
+
+  <section class="hero" id="intro">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12 text-right navicon">
+          <a id="nav-toggle" class="nav_slide_button" href="#"><span></span></a>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-8 col-md-offset-2 text-center inner">
+          <div class="animatedParent">
+            <h1 class="animated fadeInDown">Woobak Templates</h1>
+            <p class="animated fadeInUp">영어를 배우지 않고도 써먹는 간편한 영어 템플렛 제작소</p>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-6 col-md-offset-3 text-center">
+          <a href="{% url 'index' %}" class="learn-more-btn btn-scroll">바로 시작</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- Navigation -->
+  <div id="navigation">
+    <nav class="navbar navbar-custom" role="navigation">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-2">
+            <div class="site-logo">
+              <a href="index.html" class="brand">Woobak</a>
+            </div>
+          </div>
+
+
+          <div class="col-md-10">
+
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#menu">
+                                                <i class="fa fa-bars"></i>
+                                                </button>
+            </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="menu">
+              <ul class="nav navbar-nav navbar-right">
+                <li class="active"><a href="#intro">홈</a></li>
+                <li><a href="#about">소개</a></li>
+                <li><a href="#service">서비스</a></li>
+                <li><a href="#works">템플렛</a></li>
+
+                <li><a href="#contact">문의</a></li>
+              </ul>
+            </div>
+            <!-- /.Navbar-collapse -->
+
+          </div>
+        </div>
+      </div>
+      <!-- /.container -->
+    </nav>
+  </div>
+  <!-- /Navigation -->
+
+  <!-- Section: about -->
+  <section id="about" class="home-section color-dark bg-white">
+    <div class="container marginbot-50">
+      <div class="row">
+        <div class="col-lg-8 col-lg-offset-2">
+          <div class="animatedParent">
+            <div class="section-heading text-center animated bounceInDown">
+              <h2 class="h-bold">왜 우박 템플렛이죠?</h2>
+              <div class="divider-header"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="container">
+
+
+      <div class="row">
+
+
+        <div class="col-lg-8 col-lg-offset-2 animatedParent">
+          <div class="text-center">
+            <p>
+              우박 템플렛은 요즘 할 일도 많은데 영어는 사용해야하고 그런데 배울 시간은 없는 분들을 위한 서비스입니다.
+            </p>
+            <p>
+              우박 템플렛은 자신이 원하는 영어 템플렛을 직접 골라서 사용할 수 있는 자동 영어 작문 서비스입니다. 어렵게 배워 쓰지말고, 쉽게 자동생성하여 쓰세요.
+            </p>
+            <a href="#service" class="btn btn-skin btn-scroll">둘러보기</a>
+          </div>
+        </div>
+
+
+      </div>
+    </div>
+
+  </section>
+  <!-- /Section: about -->
+
+
+  <!-- Section: services -->
+  <section id="service" class="home-section color-dark bg-gray">
+    <div class="container marginbot-50">
+      <div class="row">
+        <div class="col-lg-8 col-lg-offset-2">
+          <div>
+            <div class="section-heading text-center">
+              <h2 class="h-bold">우박 템플렛 서비스</h2>
+              <div class="divider-header"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="text-center">
+      <div class="container">
+
+        <div class="row animatedParent">
+          <div class="col-md-4">
+            <div class="animated rotateInDownLeft">
+              <div class="service-box">
+                <div class="service-icon">
+                  <span class="fa fa-laptop fa-2x"></span>
+                </div>
+                <div class="service-desc">
+                  <h5>자동 영어 작문</h5>
+                  <div class="divider-header"></div>
+                  <p>
+                    회사에서 또는 일상에서 영어로 작성해야 하는 이메일, SNS글, 그리고 프레젠테이션 스크립트를 자동으로 생성하여 줍니다.
+                  </p>
+                  <a href="#" class="btn btn-skin">작문하기</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="animated rotateInDownLeft slow">
+              <div class="service-box">
+                <div class="service-icon">
+                  <span class="fa fa-globe fa-2x"></span>
+                </div>
+                <div class="service-desc">
+                  <h5>자동 영어 번역</h5>
+                  <div class="divider-header"></div>
+                  <p>
+                    우박 템플렛 데이터베이스에 존재하지 않는 문장은 한글로 문장을 작성하면 자동 번역해드립니다.
+                  </p>
+                  <a href="#" class="btn btn-skin">번역하기</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="animated rotateInDownLeft slower">
+              <div class="service-box">
+                <div class="service-icon">
+                  <span class="fa fa-graduation-cap fa-2x"></span>
+                </div>
+                <div class="service-desc">
+                  <h5>영어 작문 교육</h5>
+                  <div class="divider-header"></div>
+                  <p>
+                    작문에 어려움을 느끼는 분들을 위해 영어 교육도 함께 하고 있습니다. 영어 작문을 잘 하기 위한 공식을 배워보세요.
+                  </p>
+                  <a href="#" class="btn btn-skin">공부하기</a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  </section>
+  <!-- /Section: services -->
+
+
+  <!-- Section: works -->
+  <section id="works" class="home-section color-dark text-center bg-white">
+    <div class="container marginbot-50">
+      <div class="row">
+        <div class="col-lg-8 col-lg-offset-2">
+          <div>
+            <div class="animatedParent">
+              <div class="section-heading text-center">
+                <h2 class="h-bold animated bounceInDown">예시 템플렛</h2>
+                <div class="divider-header"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="container">
+
+      <div class="row animatedParent">
+        <div class="col-sm-12 col-md-12 col-lg-12">
+
+          <div class="row gallery-item">
+            <div class="col-md-3 animated fadeInUp">
+              <a href="img/works/1.jpg" title="This is an image title" data-lightbox-gallery="gallery1" data-lightbox-hidpi="img/works/1@2x.jpg">
+								<img src="img/works/1.jpg" class="img-responsive" alt="img">
+							</a>
+            </div>
+            <div class="col-md-3 animated fadeInUp slow">
+              <a href="img/works/2.jpg" title="This is an image title" data-lightbox-gallery="gallery1" data-lightbox-hidpi="img/works/1@2x.jpg">
+								<img src="img/works/2.jpg" class="img-responsive" alt="img">
+							</a>
+            </div>
+            <div class="col-md-3 animated fadeInUp slower">
+              <a href="img/works/3.jpg" title="This is an image title" data-lightbox-gallery="gallery1" data-lightbox-hidpi="img/works/1@2x.jpg">
+								<img src="img/works/3.jpg" class="img-responsive" alt="img">
+							</a>
+            </div>
+            <div class="col-md-3 animated fadeInUp">
+              <a href="img/works/4.jpg" title="This is an image title" data-lightbox-gallery="gallery1" data-lightbox-hidpi="img/works/1@2x.jpg">
+								<img src="img/works/4.jpg" class="img-responsive" alt="img">
+							</a>
+            </div>
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+  </section>
+  <!-- /Section: works -->
+
+  <!-- Section: contact -->
+  <section id="contact" class="home-section nopadd-bot color-dark bg-gray text-center">
+    <div class="container marginbot-50">
+      <div class="row">
+        <div class="col-lg-8 col-lg-offset-2">
+          <div class="animatedParent">
+            <div class="section-heading text-center">
+              <h2 class="h-bold animated bounceInDown">문의하기</h2>
+              <div class="divider-header"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <div class="container">
+
+      <div class="row marginbot-80">
+        <div class="col-md-8 col-md-offset-2">
+          <div id="sendmessage">메세지 잘 받았습니다. 감사합니다!</div>
+          <div id="errormessage"></div>
+          <form id="contact-form" action="" method="post" role="form" class="contactForm">
+            <div class="row marginbot-20">
+              <div class="col-md-6 xs-marginbot-20">
+                <div class="form-group">
+                  <input type="text" name="name" class="form-control" id="name" placeholder="이름" data-rule="minlen:4" data-msg="제대로 된 이름을 작성하여 주세요" />
+                  <div class="validation"></div>
+                </div>
+              </div>
+              <div class="col-md-6">
+                <div class="form-group">
+                  <input type="email" class="form-control" name="email" id="email" placeholder="이메일" data-rule="email" data-msg="제대로 된 이메일을 작성하여 주세요" />
+                  <div class="validation"></div>
+                </div>
+              </div>
+            </div>
+            <div class="row">
+              <div class="col-md-12">
+                <div class="form-group">
+                  <input type="text" class="form-control" name="subject" id="subject" placeholder="주제" data-rule="minlen:4" data-msg="8글자 이상 작성하여 주세요" />
+                  <div class="validation"></div>
+                </div>
+                <div class="form-group">
+                  <textarea class="form-control" name="message" rows="5" data-rule="required" data-msg="메세지를 작성하여 주세요" placeholder="메세지"></textarea>
+                  <div class="validation"></div>
+                </div>
+                <button type="submit" class="btn btn-skin btn-lg btn-block" id="btnContactUs">
+    									보내기</button>
+              </div>
+            </div>
+          </form>
+        </div>
+      </div>
+
+
+    </div>
+  </section>
+  <!-- /Section: contact -->
+
+
+  <footer>
+    <div class="container">
+      <div class="row">
+        <div class="col-md-6">
+          <ul class="footer-menu">
+            <li><a href="#">홈 <span class="fa fa-chevron-circle-up"></span></a></li>
+            <li><a href="#">우박 템플렛 SNS 둘러보기</a></li>
+          </ul>
+        </div>
+        <div class="col-md-6 text-right copyright">
+          2018 &copy;Copyright - Woobak. All Rights Reserved
+          <div class="credits">
+            <!--
+              All the links in the footer should remain intact.
+              You can delete the links only if you purchased the pro version.
+              Licensing information: https://bootstrapmade.com/license/
+              Purchase the pro version with working PHP/AJAX contact form: https://bootstrapmade.com/buy/?theme=Bocor
+            -->
+            <a href="https://bootstrapmade.com/bootstrap-business-templates/">Woobak Template</a> by Miss Woo & Mister Park
+          </div>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Core JavaScript Files -->
+  <script src="{% static 'home/jquery.min.js' %}"></script>
+  <script src="{% static 'home/bootstrap.min.js' %}"></script>
+  <script src="{% static 'js/jquery.sticky.js' %}"></script>
+  <script src="{% static 'js/jquery.easing.min.js' %}"></script>
+  <script src="{% static 'js/jquery.scrollTo.js' %}"></script>
+  <script src="{% static 'js/jquery.appear.js' %}"></script>
+  <script src="{% static 'js/stellar.js' %}"></script>
+  <script src="{% static 'js/nivo-lightbox.min.js' %}"></script>
+
+  <script src="{% static 'js/home-custom.js' %}"></script>
+  <script src="{% static 'js/css3-animate-it.js' %}"></script>
+  <script src="{% static 'js/contactform.js' %}"></script>
+
+</body>
+</html>

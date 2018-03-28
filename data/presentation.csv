@@ -1,0 +1,543 @@
+category,usage,topic,meaning,sentence
+면접,인사 및 자기소개,첫인사,안녕하세요,Hello.
+면접,인사 및 자기소개,첫인사,안녕하세요,Good morning.
+면접,인사 및 자기소개,첫인사,안녕하세요,Good afternoon.
+면접,인사 및 자기소개,첫인사,안녕하세요,How do you do?
+면접,인사 및 자기소개,첫인사,안녕하세요,How are you doing?
+면접,인사 및 자기소개,첫인사,만나서 반가워요.,It's nice to meet you.
+면접,인사 및 자기소개,첫인사,만나서 반가워요.,I'm pleased to meet you.
+면접,인사 및 자기소개,첫인사,이 자리에 함께하여 영광입니다[기뻐요].,I'm honored[excited] to be here.
+면접,인사 및 자기소개,첫인사,"먼저, 이 기회를 주셔서 감사드립니다.","First of all, thank you for this opportunity."
+면접,인사 및 자기소개,첫인사,이 인터뷰 기회를 갖게 되어 기쁩니다.,I am pleased to have this interview opportunity.
+면접,인사 및 자기소개,첫인사,이 인터뷰 기회를 갖게 되어 기쁩니다.,I am pleased to he here for an interview.
+면접,인사 및 자기소개,자기소개,제 이름은 {김백수}입니다.,My name is {Baeksu Kim}.
+면접,인사 및 자기소개,자기소개,저는 {포항} 출신입니다.,I am from {Pohang}.
+면접,인사 및 자기소개,자기소개,제 이름은 윤보배입니다. 제 부모님이 '보배'라고 이름을 지어주셨는데 '보물'이라는 뜻이지요.,My name is {Bobae Yoon}. My parents named me 'Bobae' which means 'treasure'.
+프레젠테이션,프레젠테이션 시작 및 소개,인사,안녕하세요,Good morning.
+프레젠테이션,프레젠테이션 시작 및 소개,인사,안녕하세요,Good afternoon.
+프레젠테이션,프레젠테이션 시작 및 소개,인사,안녕하세요,Good evening.
+프레젠테이션,프레젠테이션 시작 및 소개,인사,안녕하세요,Hello.
+프레젠테이션,프레젠테이션 시작 및 소개,인사,"신사 숙녀 여려분, 안녕하세요","Hellp, ladies and gentlemen."
+프레젠테이션,프레젠테이션 시작 및 소개,인사,안녕하세요,How are you all?
+프레젠테이션,프레젠테이션 시작 및 소개,인사,안녕하세요,How are you doing today?
+프레젠테이션,프레젠테이션 시작 및 소개,인사,안녕하세요,How is everyone doing here today?
+프레젠테이션,프레젠테이션 시작 및 소개,인사,잘 지내셨어요?,How have you been?
+프레젠테이션,프레젠테이션 시작 및 소개,인사,오늘 이 자리에 여러분과 함께 할 수 있어 기쁩니다,It's great to be here with you today.
+프레젠테이션,프레젠테이션 시작 및 소개,인사,오늘 이 자리에 여러분과 함께 할 수 있어 기쁩니다,It's my pleasure to be here today.
+프레젠테이션,프레젠테이션 시작 및 소개,인사,오늘 이 자리에 여러분과 함께 할 수 있어 기쁩니다,I'm glad to be here with you today.
+프레젠테이션,프레젠테이션 시작 및 소개,인사,여러분과 함께 하게 되어 영광입니다,It's my honor to be here with you.
+프레젠테이션,프레젠테이션 시작 및 소개,인사,여러분 모두와 이 자리에 함께하게 되어 기쁩니다!,How nice to be here with you all!
+프레젠테이션,프레젠테이션 시작 및 소개,인사,여러분 모두와 이 자리에 함께하게 되어 기쁩니다!,Very nice to be with you.
+프레젠테이션,프레젠테이션 시작 및 소개,인사,와 주셔서 감사합니다,Thank you for coming.
+프레젠테이션,프레젠테이션 시작 및 소개,인사,참석해 주셔서 감사합니다,I appreciate your attendance.
+프레젠테이션,프레젠테이션 시작 및 소개,인사,바쁘신 와중에 시간을 내서 오늘 참석해 주셔서 대단히 감사합니다,Thank you very much for taking the time out of your busy schedule to be here today.
+프레젠테이션,프레젠테이션 시작 및 소개,인사,GHI 인터네셔널에 오신 것을 환영합니다,Welcome to GHI International.
+프레젠테이션,프레젠테이션 시작 및 소개,인사,GMT 코리아의 연례 회의에 오신 것을 환영합니다,Welcome to the annual meeting of GNT Korea.
+프레젠테이션,프레젠테이션 시작 및 소개,인사,모두들 환영합니다,We welcome all of you.
+프레젠테이션,프레젠테이션 시작 및 소개,인사,착석해 주시기 바랍니다,Please be seated.
+프레젠테이션,프레젠테이션 시작 및 소개,인사,간단히 주간 프레젠테이션을 하겠습니다,We will have a short weekly presentation.
+프레젠테이션,프레젠테이션 시작 및 소개,인사,(오늘) 이 프레젠테이션을 하게 되어 기쁩니다,It's my pleasure to present this presentation.
+프레젠테이션,프레젠테이션 시작 및 소개,인사,(오늘) 이 프레젠테이션을 하게 되어 기쁩니다,It's my honor to give this presentation today.
+프레젠테이션,프레젠테이션 시작 및 소개,인사,오늘 여러분 앞에서 말할 수 있게 되어 기쁩니다,I'm glad to be able to speak in front of you today.
+프레젠테이션,프레젠테이션 시작 및 소개,인사,(오늘 저녁) (이 문제에 관한) 발표 기회를 주셔서 감사합니다,Thank you for this opportunity.
+프레젠테이션,프레젠테이션 시작 및 소개,인사,(오늘 저녁) (이 문제에 관한) 발표 기회를 주셔서 감사합니다,Thank you for giving me this opportunity to present this issue.
+프레젠테이션,프레젠테이션 시작 및 소개,인사,(오늘 저녁) (이 문제에 관한) 발표 기회를 주셔서 감사합니다,Thank you for granting me this presentation opportunity.
+프레젠테이션,프레젠테이션 시작 및 소개,인사,(오늘 저녁) (이 문제에 관한) 발표 기회를 주셔서 감사합니다,Thank you all for letting me talk tonight.
+프레젠테이션,프레젠테이션 시작 및 소개,인사,(오늘 저녁) (이 문제에 관한) 발표 기회를 주셔서 감사합니다,Thank you for letting me talk here tonight.
+프레젠테이션,프레젠테이션 시작 및 소개,인사,오늘 이 회의에[제 발표에] 참석해 주셔서 감사드립니다,Thank you for participating in this meeting today.
+프레젠테이션,프레젠테이션 시작 및 소개,인사,오늘 이 회의에[제 발표에] 참석해 주셔서 감사드립니다,Thank you for attending my presentation today.
+프레젠테이션,프레젠테이션 시작 및 소개,인사,오늘 이 회의에[제 발표에] 참석해 주셔서 감사드립니다,Thank you for taking part in this presentation today.
+프레젠테이션,프레젠테이션 시작 및 소개,인사,오늘 여러분들에게 프레젠테이션을 할 기회를 갖게 되어 정말 기쁩니다!,What a wonderful opportunity it is to give a presentation to you today!
+프레젠테이션,프레젠테이션 시작 및 소개,인사,"자, 슬슬 시작해 봅시다",Let's get the show on the road.
+프레젠테이션,프레젠테이션 시작 및 소개,인사,시작하겠습니다,Let me begin.
+프레젠테이션,프레젠테이션 시작 및 소개,인사,이 프레젠테이션 동안 여러분이 졸지 않길 바랍니다,I hope this presentation doesn't make you doze off.
+프레젠테이션,프레젠테이션 시작 및 소개,인사,오늘 여러분 모두 별일 없으시길 바랍니다,Hope most of you are well today.
+프레젠테이션,프레젠테이션 시작 및 소개,자기소개,간단히 제 소개를 하고 시작하죠,Let me start by saying just a few words about myself.
+프레젠테이션,프레젠테이션 시작 및 소개,자기소개,우선 간단히 제 소개를 하고 시작하겠습니다,Let me start off by briefly introduing myself first.
+프레젠테이션,프레젠테이션 시작 및 소개,자기소개,제 소개를 하겠습니다,Let me introduce myself.
+프레젠테이션,프레젠테이션 시작 및 소개,자기소개,제 소개를 하겠습니다,I'd like to introduce myself.
+프레젠테이션,프레젠테이션 시작 및 소개,자기소개,제 소개를 하겠습니다,Let me tell you who I am first.
+프레젠테이션,프레젠테이션 시작 및 소개,자기소개,저를 모르시는 분들을 위해 제 소개를 하죠. 저는 수잔 김입니다.,"For those of you who don't know me, let me introduce myself. I'm Susan Kim."
+프레젠테이션,프레젠테이션 시작 및 소개,자기소개,저를 이미 아시는 분도 게시죠. 저는 마케팅부의 수잔 김입니다.,"As some of you already know, I'm Susan Ki, of the Marketing Department."
+프레젠테이션,프레젠테이션 시작 및 소개,자기소개,"다들 저를 벌써 알고 계실 텐데, 혹시 기억을 못 하실 수 있으니 다시 말씀드리죠/ 저는 제임스 김입니다.","Most of you should know me already, but in case you don't remember, I am James Kim."
+프레젠테이션,프레젠테이션 시작 및 소개,자기소개,"다들 저를 벌써 알고 계실 텐데, 혹시 기억을 못 하실 수 있으니 다시 말씀드리죠/ 저는 제임스 김입니다.","I think most of you know me already, but just in case you don't remember, I'm james Kim."
+프레젠테이션,프레젠테이션 시작 및 소개,자기소개,제가 누구인지 말 안 해도 다 아시죠?,"It's needless to mention who I am, right?I'm sure most of you already know me."
+프레젠테이션,프레젠테이션 시작 및 소개,자기소개,여러분 대부분이 저를 아실 거라고 믿습니다.,I'm Harry Park and I'm from XYZ.
+프레젠테이션,프레젠테이션 시작 및 소개,자기소개,저는 해리 박이고 XYZ 사 소속입니다,I'm Harry Park and I'm with XYZ.
+프레젠테이션,프레젠테이션 시작 및 소개,자기소개,저는 프로젝트 매니저입니다,I'm a project manager.
+프레젠테이션,프레젠테이션 시작 및 소개,자기소개,저는 새로 온 프로젝트 매니저입니다,I'm a new project manager.
+프레젠테이션,프레젠테이션 시작 및 소개,자기소개,저는 연구개발 컨설턴트입니다,I'm an R&D consultant.
+프레젠테이션,프레젠테이션 시작 및 소개,자기소개,저는 수석 엔지니어입니다,I'm a senior engineer.
+프레젠테이션,프레젠테이션 시작 및 소개,자기소개,저는 (우리 회사의) 기업 재무를 담당하고 입습니다.,I'm in charge of corporate finance.
+프레젠테이션,프레젠테이션 시작 및 소개,자기소개,저는 (우리 회사의) 기업 재무를 담당하고 입습니다.,I'm responsible for corporate finance of our firm.
+프레젠테이션,프레젠테이션 시작 및 소개,자기소개,저는 홍보 분야에 있습니다.,I'm in public relations.
+프레젠테이션,프레젠테이션 시작 및 소개,자기소개,저는 기획부의 임수진입니다. 저는 현재 비즈니스 전략 기획을 담당하고 있습니다.,"I'm Sujin Lim from the planning Department. I'm currently working on planning business strategies,"
+프레젠테이션,프레젠테이션 시작 및 소개,자기소개,저는 새로운 관리 시스템의 실행 및 운영을 맡고 있는 새로 온 프로젝트 매닞저입니다.,I'm a new project manager in charge of implementing and running our new management system.
+프레젠테이션,프레젠테이션 시작 및 소개,자기소개,"박 과장님, 저를 소개해 주셔서 감사합니다. 말씀하신 것처럼 저는 인사부 대리입니다.","Thanks Mr. Park for introducing me. As he said, I'm the assisatant anager of the HR Department."
+프레젠테이션,프레젠테이션 시작 및 소개,자기소개,지난 몇 달 간 저는 이 프로젝트를 담당해 왔습니다.,I have been in charge of this project for the last few months/
+프레젠테이션,프레젠테이션 시작 및 소개,자기소개,저희 아웃소싱팀은 이 프레젠테이션을 정말 열심히 준비해 왔습니다. 오늘 발표에서 각 부서가 따라야 할 회사의 아웃소싱 정책에 관한 중요한 지침을 설명해 드릴 것입니다.,Our outsourcing team has veen preparing for this presentation really hard. This presentationwill explain the important guidelines about our company's outsourcing policy for each department to follow.
+프레젠테이션,프레젠테이션 시작 및 소개,자기소개,돌아와서 기쁩니다,It's good to be back here.
+프레젠테이션,프레젠테이션 시작 및 소개,자기소개,"그래요, 제가 돌아왔습니다","Yes, I'm back."
+프레젠테이션,프레젠테이션 서론,프레젠테이션 주제 소개,오늘 프레젠테이션의 주제는 저희의 효율성을 어떻게 개선하느냐입니다.,The topic of today's presentation is how to improve our efficiency.
+프레젠테이션,프레젠테이션 서론,프레젠테이션 주제 소개,오늘 프레젠테이션의 주제는 구젲 경제 안정에 있어서의 IMF의 역할입니다.,The title of today's presentation is the role of th eIMF in international economic stability.
+프레젠테이션,프레젠테이션 서론,프레젠테이션 주제 소개,반도체 산업의 최신 기술에 대해 설명드리고 싶습니다.,I'd like to explain the latest technology in the semiconductor industry.
+프레젠테이션,프레젠테이션 서론,프레젠테이션 주제 소개,저희 신상품의 특별한 특징에 관해 알려드리고 싶습니다.,I'd like to let you know the special features of our new product.
+프레젠테이션,프레젠테이션 서론,프레젠테이션 주제 소개,여러분께 깜짝 놀랄 만한 결과를 발표해 드리고 싶습니다.,I'd like to present to you an astonishing finding.
+프레젠테이션,프레젠테이션 서론,프레젠테이션 주제 소개,제 발표의 주제는 연비 효율성입니다.,The topic of my talk is fuel efficiency.
+프레젠테이션,프레젠테이션 서론,프레젠테이션 주제 소개,제가 오늘 말씀드리고자 하는 것은 석유 정치입니다.,What I'm going to talk about today is the politics of oil.
+프레젠테이션,프레젠테이션 서론,프레젠테이션 주제 소개,"자, 그럼 주제가 무엇이냐고요? 바로 조직 학습입니다.",So what's the topic? Organizational Learning.
+프레젠테이션,프레젠테이션 서론,프레젠테이션 주제 소개,저는 최근의 지진 패턴에 관해 이야기하려고 이 자리에 나오게 됐습니다.,I'm here to talk about recentearthquake patterns.
+프레젠테이션,프레젠테이션 서론,프레젠테이션 주제 소개,저희의 사업 목표에 관해 말씀드리겠습니다.,I'm going to talk about our business objectives.
+프레젠테이션,프레젠테이션 서론,프레젠테이션 주제 소개,이 프레젠테이션의 핵심은 여러분에게 저희 마케팅 전략을 알려 드리는 것입니다.,The crux of this presentation is to inform you of our marketing strategies.
+프레젠테이션,프레젠테이션 서론,프레젠테이션 주제 소개,이 프레젠테이션의 목적은 저희의 새 사업모델의 효율성을 강조하고자 하는 것입니다.,The purpose of this presentation is to emphasize the efficiency of our new business model
+프레젠테이션,프레젠테이션 서론,프레젠테이션 주제 소개,이 발표를 통해 여러분께 전해 드리고자 하는 중요한 메시지는 문화 차이가 고려되어야 한다는 것입니다.,The important message I would like to deliver throughout this presentation is that cultural differences must be taken inton account.
+프레젠테이션,프레젠테이션 서론,프레젠테이션 주제 소개,제가 말씀드리고자 하는 다음 사항을 잘 들어 주셨으면 합니다.,I would like to be heard on the following points that I make.
+프레젠테이션,프레젠테이션 서론,프레젠테이션 주제 소개,아동 학대 피해자들의 이야기를 들려 드리도록 하겠습니다.,I'm goding to share some stories of victims of child abuse.
+프레젠테이션,프레젠테이션 서론,프레젠테이션 주제 소개,옥스팜의 세 가지 철칙을 소개해 드리죠.,Let me introduce the three mottos of oxfam.
+프레젠테이션,프레젠테이션 서론,프레젠테이션 주제 소개,여러분은 오늘 국제 정치에 관한 새로운 관점을 배워 가실 겁니다.,yYou will learn about new perspectives on international politics today.
+프레젠테이션,프레젠테이션 서론,프레젠테이션 주제 소개,이 프레젠테이션을 통해 여러분은 그린 기술을 뒷받침하는 이론을 이해하실 수 있게 될 것입니다.,"From this presentation, you will be able to understand the concept behind green technology."
+프레젠테이션,프레젠테이션 서론,프레젠테이션 목적 제시,저희의 최근 국제 거래에 관한 정보를 업데이트해 드리는 것이 이 프레젠테이션의 목적입니다.,The aim of this presentation is to update you on our latest international deals.
+프레젠테이션,프레젠테이션 서론,프레젠테이션 목적 제시,본 발표의 목적은 저희의 새로운 고용 정책이 몇 가지 사항을 명확히 해 드리려는 것입니다.,The goal of this presentation is to clarify some issues in our new employment policy.
+프레젠테이션,프레젠테이션 서론,프레젠테이션 목적 제시,이 프레젠테이션의 목적은 저희의 최신 상품의 경쟁력을 높이는 몇 가지 방버을 제시하려는 것이죠.,The purpose of this presentation is to suggest some ways to raise the competitiveness of our latest products
+프레젠테이션,프레젠테이션 서론,프레젠테이션 목적 제시,이 발표의 목적은 이번 분기에 대한 저희 사업 계획에 관해 토론하기 위해서입니다.,The purpose of this talk is to discuss our business plans for this quarter.
+프레젠테이션,프레젠테이션 서론,프레젠테이션 목적 제시,이 프레젠테이션은 여러분이 더 나은 투자 선택을 하시도록 돕기 위한 것입니다.,This presentation is to help you make a better investment choice.
+프레젠테이션,프레젠테이션 서론,프레젠테이션 목적 제시,저희는 사업전략을 검토하기 위해 오늘 이 자리에 나왔습니다.,We are here today to go over our business strategies.
+프레젠테이션,프레젠테이션 서론,프레젠테이션 목적 제시,저희이 최신 기술에 대한 흥미로운 조사 결과를 발표해 드리고 싶습니다.,I'd like to present some interesting findings to you about our latest technology.
+프레젠테이션,프레젠테이션 서론,프레젠테이션 목적 제시,이 발표로 여러분께 NGO활동에 대해 기본 지식이 제공되길 바랍니다.,I hope this talk will provide you with some basic knowledge about NGO activities.
+프레젠테이션,프레젠테이션 서론,프레젠테이션 목적 제시,"즉, 여기서 제가 강조하고자 하는 것은 그 아이들에 대한 개별적 관심이 필요하다는 것입니다.",So what I'm pointing out here is that we need individual care for those children.
+프레젠테이션,프레젠테이션 서론,프레젠테이션 목적 제시,본 발표는 임대 계약의 세금 관점을 부각시키기 위한 것입니다.,This talk is designed to emphasize the tax angle of the leasing arrangement.
+프레젠테이션,프레젠테이션 서론,프레젠테이션 목적 제시,이 프레젠테이션에서 국내 철강 시장에서의 우리의 현황에 관한 최신 정보를 드릴 것입니다.,This presentation will update everyone on our current status in the domestic steel market.
+프레젠테이션,프레젠테이션 서론,프레젠테이션 목적 제시,이 프레젠테이션은 저희 신규 사업의 간단한 개요를 알려 드리려고 마련되었습니다.,this presentation is organized to give you a brief outline of our new business.
+프레젠테이션,프레젠테이션 서론,프레젠테이션 시작 알리기,"자, 여러분께 몇 가지 질문을 드리며 프레젠테이션을 시작할까 합니다.","Now, let me begin the presentation by asking you some questions."
+프레젠테이션,프레젠테이션 서론,프레젠테이션 시작 알리기,여러분에게 질문을 하나 드리면서 시작하고 싶습니다.,I'd like to open up by asking you a question
+프레젠테이션,프레젠테이션 서론,프레젠테이션 시작 알리기,저희 의제을 소개하면서 시작하고 싶습니다,I'd like to open up by intoducing our agenda.
+프레젠테이션,프레젠테이션 서론,프레젠테이션 시작 알리기,저희의 마케팅 전략에 관한 몇가지 관차 보고와 함께 시작하겠습니다.,Let's get the show on the road with a few observations about our marketing strategies
+프레젠테이션,프레젠테이션 서론,프레젠테이션 시작 알리기,연구 개발에 관한 몇 가지 관찰 보고와 함께 시작하겠습니다.,let's get the show on the road with a few observations about R&D
+프레젠테이션,프레젠테이션 서론,프레젠테이션 시작 알리기,발표의 간단한 개요를 말씀드리는 것으로 바로 시작하겠습니다.,let's get the ball rolling by giving you a brief outline of the presentation
+프레젠테이션,프레젠테이션 서론,프레젠테이션 시작 알리기,"자, 간단한 개요를 말씀드리는 것으로 발표를 시작할까 합니다.","Now, let's begin the presentation by giving you a brief outline."
+프레젠테이션,프레젠테이션 서론,프레젠테이션 시작 알리기,"자, 회사 정책의 개요를 알려드리면서 발표를 시작해 보지요","Now, let's begin the presentation by outlining company policy"
+프레젠테이션,프레젠테이션 서론,프레젠테이션 시작 알리기,프레젠테이션을 간단히 요약해 드리는 것으로 시작하죠,let me start off by giving you a brief summary of my presentation
+프레젠테이션,프레젠테이션 서론,프레젠테이션 시작 알리기,프레젠테이션의 목차를 요약해 드리며 시작하겠습니다,I will begin by summarizing the contents of my presentation
+프레젠테이션,프레젠테이션 서론,프레젠테이션 시작 알리기,이 수치에 관해 논의하는 것부터 시작하죠,let me start off by discussing these figures.
+프레젠테이션,프레젠테이션 서론,프레젠테이션 시작 알리기,판매 수치를 살펴보면서 시작하겠습니다,I will begin by looking at some sales figures.
+프레젠테이션,프레젠테이션 서론,프레젠테이션 시작 알리기,"자, 몇가지 수치를 보여드리는 것으로 발표를 시작할까 합니다","Now, let me begin the presentation by showing you some numbers."
+프레젠테이션,프레젠테이션 서론,프레젠테이션 시작 알리기,이 프레젠테이션에서 다룰 사항들을 소개하면서 시작하겠습ㄴ다,I will begin by introducing some of the issues to be dealt with in this presentation.
+프레젠테이션,프레젠테이션 서론,프레젠테이션 시작 알리기,프레젠테이션의 주요 사항들을 살펴보면서 시작하겠습니다,I will begin by going over the main points of my presentation.
+프레젠테이션,프레젠테이션 서론,프레젠테이션 시작 알리기,저희 마케팅 계획을 전체적으로 살펴보며 시작하고 싶습니다,I'd like to open up by giving you an overview of our marketing plans.
+프레젠테이션,프레젠테이션 서론,프레젠테이션 시작 알리기,더 지체하지 않고 저희의 현 판매 전략을 요약해 드리죠,"without further delay, let me summarize our current sales strategies"
+프레젠테이션,프레젠테이션 서론,프레젠테이션 시작 알리기,최근 조사 결과를 설명해 드리는 것으로 바로 시작하겠습니다,let's get cracking by explainng the latest findings
+프레젠테이션,프레젠테이션 서론,프레젠테이션 시작 알리기,필요한 몇 가지 배경 설명으로 들어가기 전에 프레젠테이션의 개요를 말씀드리고 싶습니다,I'd like to outline my presentation before jumping into some essential background information.
+프레젠테이션,프레젠테이션 서론,프레젠테이션 시작 알리기,새 시스템의 장점을 살펴보며 시작하죠,Let's begin by looking at the advantage of the new system.
+프레젠테이션,프레젠테이션 서론,프레젠테이션 개요 설명,"모든 고전 연극들이 그러하듯이, 오늘 저는 제 프레젠테이션을 3막으로 구성해 봤습니다","Like every great classic play, I've divided my presentation into three acts."
+프레젠테이션,프레젠테이션 서론,프레젠테이션 개요 설명,"모든 휼륭한 프레젠테이션처럼, 저도 제 발표를 세 가지 주제로 나누었습니다","Like every great presentation, I've divided my talk into three main subjects."
+프레젠테이션,프레젠테이션 서론,프레젠테이션 개요 설명,"대부분의 휼륭한 고전 음악회처럼, 제 프레젠테이션은 세 부분으로 되어 있습니다","Just like most great classical music concerts, there are three parts in my presentation."
+프레젠테이션,프레젠테이션 서론,프레젠테이션 개요 설명,제 발표의 주제인 '3단계 정보 수명 관리'와 같이 제 프레젠테이션도 3단계로 나누어져 있습니다,"Just like the topic of my presentation, ""3-Step Information Lifecycle Mangement,"" the presentation itself is divided into three phases."
+프레젠테이션,프레젠테이션 서론,프레젠테이션 개요 설명,저는 제 프레젠테이션을 세 파트로 나누엇습니다,I've divided my presentation into three parts.
+프레젠테이션,프레젠테이션 서론,프레젠테이션 개요 설명,"먼저, 이론적인 정의를 내리겠습니다. 두 번째로, 저희의 설문 조사 결과와 그 의미를 점검해 보겠습니다. 세 번째로, 각각의 시나리오에 대한 실질적인 조언을 제공해 드릴 것입니다.","Firstly, I will give you theoretical definitions. Secondly, our survey results and their implications will be examined. Thirdly, I will provide some practical advice for each scenario."
+프레젠테이션,프레젠테이션 서론,프레젠테이션 개요 설명,"프레젠테이션은 다음 세 가지 부분으로 구성될 것입니다: 첫째로, 우리 상품에 대한 수요 창출 방법. 둘째로, 우리 상품을 보다 효율적으로 유통시키는 방법. 그리고 셋째로, 시장에서 가장 효과적으로 경쟁하는 방법.","The presentation will have the following three parts: First how to create a demand for our products. Secondly, how to distribute our products more effectively. And thirdly, how to compete more effectively in the market."
+프레젠테이션,프레젠테이션 서론,프레젠테이션 개요 설명,"저는 휼륭한 프레젠테이션의 다음과 같은 세 가지 요소에 대해 말씀드리겟습니다. 첫째, 콘텐츠, 둘째, 전달, 그리고 마지막으로, 청중에 맞추고 교감할 수 잇는 기술입니다","I will talk about the following three aspects of any good presentation: first, the content; second, the delivery; and last, the ability to adjust to and connect with the audience."
+프레젠테이션,프레젠테이션 서론,프레젠테이션 개요 설명,"제 프레젠테이션에는 세 가지 주요 사항이 있습니다. 첫째, 문화, 둘째, 전달 기술, 그리고 마지막으로 스피치 기술입니다.","There are three main things in my presentation: firstly, the culture, secondly, the delivery, and lastly, the speech tips."
+프레젠테이션,프레젠테이션 서론,프레젠테이션 개요 설명,"제 프레젠테이션에는 세 가지 중요 사항이 포함돼 잇습니다. 그것들은 다음과 같습니다: 브랜드 사용료, 브랜드 이미지, 그리고 가격 책정입니다.","I have three important parts in my presentation. They are as follows: brand loyalty, brand image and pricing."
+프레젠테이션,프레젠테이션 서론,프레젠테이션 개요 설명,저는 오늘 이것에 대해 세 가지를 말씀드리려고 합니다.,I'm going to tell you three things about this today.
+프레젠테이션,프레젠테이션 서론,프레젠테이션 개요 설명,저는 이것을 다루는 데 있어 처음 몇 가지 단계에 관해 말씀드리려고 합니다.,I'm going to tell you about our first few step in dealing with this.
+프레젠테이션,프레젠테이션 서론,프레젠테이션 개요 설명,"먼저, 저희의 시나리오에 대해 말씀드리겠습니다.",First I'll talk about our scenario.
+프레젠테이션,프레젠테이션 서론,프레젠테이션 개요 설명,프레젠테이션의 첫 번째 파트에서는 저희의 새로운 의류 제품의 샘플 사진을 보여 드리겠습니다,"In the first part of my presentation, I'll show you pictures of several samples from all of our new clothing lines."
+프레젠테이션,프레젠테이션 서론,프레젠테이션 개요 설명,"먼저, 저희 연구의 최근 조사 결과를 알려 드리겠습니다","To begin, I will show you the latest findings of our study. To begin, let me bring you up to date on the latest findings of the study."
+프레젠테이션,프레젠테이션 서론,프레젠테이션 개요 설명,"첫 번째로, 지금까지의 프로젝트 진행 상황에 관해 간략히 말씀드리겠습니다.","Firstly, I'll give you a brief history of the project to date."
+프레젠테이션,프레젠테이션 서론,프레젠테이션 개요 설명,"그 후, 이 문제에 관한 저희 의견을 제시해 드리겠습니다","After that, I'd like to present our views on this issue."
+프레젠테이션,프레젠테이션 서론,프레젠테이션 개요 설명,"그러고 난 후, 저희의 5년 계획에 대해 말씀 드리겠습니다","After this, I'll talk about our five-year plan."
+프레젠테이션,프레젠테이션 서론,프레젠테이션 개요 설명,다음으로 I2개월 프로젝트 계획과 일정을 검토해 보고 싶습니다,"Next, I'd like to review the twelve-month project plan and timeline."
+프레젠테이션,프레젠테이션 서론,프레젠테이션 개요 설명,"그 다음으로, 저희 계획을 실천 가능하게 하는 방법에 대한 이야기로 넘어가곘습니다",Then I'll move on to discuss how to make our plans feasible.
+프레젠테이션,프레젠테이션 서론,프레젠테이션 개요 설명,"그리고 마지막으로, 저희의 제안을 말씀드리며 마치겠습니다","And finally, I'll finish with our suggestions."
+프레젠테이션,프레젠테이션 서론,프레젠테이션 개요 설명,"마지막으로, 저희의 구조 조정 계획에 대해 말슴드리겠습니다","Finally, I'll talk about our restructuring plan."
+프레젠테이션,프레젠테이션 서론,프레젠테이션 개요 설명,마지막으로 내년 매출 금액을 늘리기 위한 몇 가지 세부 전략을 제안할 것입니다,"Lastly, I'd like to propose some detailed strategies to increase next year's sales revenues."
+프레젠테이션,프레젠테이션 서론,프레젠테이션 개요 설명,"마지막으로 중요한 얘기입니다만, 우리 회사의 구조 조정 계획에 대해서 다루겠습니다","And last but not least, I'll cover our corporate restructuring plan."
+프레젠테이션,프레젠테이션 서론,프레젠테이션 소요 시간 알리기,이 프레젠테이션은 약 30분 정도 걸릴 것입니다.,This presentation will take about 30 minutes.
+프레젠테이션,프레젠테이션 서론,프레젠테이션 소요 시간 알리기,이 프레젠테이션은 약 30분 정도 걸릴 것입니다.,My presentation will take only 30 minutes of your time.
+프레젠테이션,프레젠테이션 서론,프레젠테이션 소요 시간 알리기,이 프레젠테이션은 약 30분 정도 걸릴 것입니다.,This presentation will last about 30 minutes.
+프레젠테이션,프레젠테이션 서론,프레젠테이션 소요 시간 알리기,이 프레젠테이션은 약 30분 정도 걸릴 것입니다.,It will take about 30 minutes of your time.
+프레젠테이션,프레젠테이션 서론,프레젠테이션 소요 시간 알리기,I0분이면 끝납니다,I shall only take I0 minutes of your time.
+프레젠테이션,프레젠테이션 서론,프레젠테이션 소요 시간 알리기,I0분이면 끝납니다,I will speak for about I0 minutes.
+프레젠테이션,프레젠테이션 서론,프레젠테이션 소요 시간 알리기,"제 발표는 한 시간 정도 걸릴 예정이나, 중간에 I0분간 휴식이 잇을 것입니다.","This presentation will take about one hour, but there will be a ten-minute break in the middle."
+프레젠테이션,프레젠테이션 서론,프레젠테이션 소요 시간 알리기,간단히 설명할 예정입니다,I plan to be brief.
+프레젠테이션,프레젠테이션 서론,프레젠테이션 소요 시간 알리기,한 시간 정도 발표할 예정입니다,My intention is to present for about an hour.
+프레젠테이션,프레젠테이션 서론,프레젠테이션 소요 시간 알리기,이 발표에는 약 I5분 정도가 할당되었습니다,I've been allotted I5 minutes for this presentation.
+프레젠테이션,프레젠테이션 서론,질의응답,질문이 있으시면 언제라도 말씀해 주세요,"Please feel free to interrupt me, if you have any questions."
+프레젠테이션,프레젠테이션 서론,질의응답,질문이 있으시면 언제라도 말씀해 주세요,"Please don't hesitate to stop me, if you have a question."
+프레젠테이션,프레젠테이션 서론,질의응답,질문이 있으시면 언제라도 말씀해 주세요,Please feel free to ask questions as we go along.
+프레젠테이션,프레젠테이션 서론,질의응답,질문은 프레젠테이션 후에 받겟습니다,I will take questions after the presentation.
+프레젠테이션,프레젠테이션 서론,질의응답,프레젠테이션 후에 질의응답 시간이 있겠습니다,"After my presentation, there will be a question and answer period."
+프레젠테이션,프레젠테이션 서론,질의응답,제 프레젠테이션이 끝난 후에 I0분 동안 질문 받는 시간이 있겠습니다,"After my presentation, there will be time for questions, which will last I0 minutes."
+프레젠테이션,프레젠테이션 서론,질의응답,제 프레젠테이션 마지막에 어던 질문이든 기꺼이 답해 드리겠습니다,I'd be glad to answer any questions at the end of my presentation.
+프레젠테이션,프레젠테이션 서론,질의응답,본 프레젠테이션 마지막에 모든 질문에 대해 답변해 드리도록 하겠습니다,We will endeavor to answer any questions at the end of my presentation.
+프레젠테이션,프레젠테이션 서론,질의응답,질문이 있으시면 끝날 때까지 기다려 주세요,"If you have any questions, please save them for the end."
+프레젠테이션,프레젠테이션 서론,질의응답,발표 마지막에 어떤 질문이든지 기꺼이 대답해 드리겠습니다,I will be happy to answer any questions at the end of my talk.
+프레젠테이션,프레젠테이션 서론,기타 공지사항,두 번째 세션이 시작하기 전에 짧은 휴식을 갖겠습니다,We will take a short break before the second session begins.
+프레젠테이션,프레젠테이션 서론,기타 공지사항,이 프레젠테이션 후 30분 동안 짧은 휴식이 있겠습니다,We will take a short break for 30 minutes after this presentation.
+프레젠테이션,프레젠테이션 서론,기타 공지사항,질의응답 시간 전에 잛은 휴식을 갖겟습니다,We'll take a short break before the question and answer session.
+프레젠테이션,프레젠테이션 서론,기타 공지사항,미스터 김의 발표 후 짧은 휴식을 갖겠습니다,We'll take a short break after Mr. Kim gives his speech.
+프레젠테이션,프레젠테이션 서론,기타 공지사항,"나중에 잛은 휴식을 가진 후, 지식관리팀의 책임자인 이 팀장님의 간략한 프레젠테이션이 있겠습니다","We'll take a short break afterwards, followed by another short presentation by Mr. Lee, the team leader of knowledge management."
+프레젠테이션,프레젠테이션 서론,기타 공지사항,휴식 시간에 다과가 제공될 것입니다,Refreshments will be provided for you during the break. Some snacks and drinks will be provided during the break.
+프레젠테이션,프레젠테이션 서론,기타 공지사항,프레젠테이션 후 오찬이 제공될 것입니다,Lunch will be provided after the presentation.
+프레젠테이션,프레젠테이션 서론,기타 공지사항,발표 후 짧은 토론이 잇겠습니다,There will be a short discussion after the talk.
+프레젠테이션,프레젠테이션 서론,기타 공지사항,이 프레젠테이션 후에 패널 발표가 몇 개 잇겟습니다,There will be several panel talks after this presentation.
+프레젠테이션,프레젠테이션 서론,기타 공지사항,발표 후 발표자가 최근 출간한 책을 구입하실 수 있습니다,The recently published books of the speaker can be purchased after the presentation.
+프레젠테이션,프레젠테이션 서론,기타 공지사항,"그럼, 이제 자료물을 나누어 드리겟습니다","Then, I will now distribute some information sheets."
+프레젠테이션,프레젠테이션 서론,기타 공지사항,"그럼, 여러분의 이해를 돕기 위해 소책자를 나누어 드리겠습니다","Then, I will now hand over some booklets for your information."
+프레젠테이션,프레젠테이션 서론,기타 공지사항,그럼 이제 자료집을 나누어드리겠습니다,"Then, I will now distrivute the information packets."
+프레젠테이션,프레젠테이션 서론,기타 공지사항,이 자료집에는 여러분이 상황을 더 잘 이해하실 수 있는 추가 자료와 정보가 포함되어 있습니다,This information packet contains additional data and information so that you may have a better understanding of the situation.
+프레젠테이션,프레젠테이션 본론,본론의 도입,"자, 몇 가지 수치를 보여 드리는 것으로 발표를 시작할까 합니다","Now, let me begin the presentation by showing you some numbers."
+프레젠테이션,프레젠테이션 본론,본론의 도입,몇가지 질문을 드리며 발표를 시작할까 합니다,"Now, let's begin the presentation by asking you some questions."
+프레젠테이션,프레젠테이션 본론,본론의 도입,여러분에게 질문을 하나 드리면서 시작하고 싶습니다,I'd like to open up by asking you a question.
+프레젠테이션,프레젠테이션 본론,본론의 도입,프레젠테이션을 간단히 요약해 드리는 것으로 시작하죠,Let me start off by giving you a brief summary of my presentation.
+프레젠테이션,프레젠테이션 본론,본론의 도입,현황을 살펴보는 것부터 시작하죠,Let me start off by outlining our current status.
+프레젠테이션,프레젠테이션 본론,본론의 도입,프레젠테이션의 목차를 요약해 드리며 시작하겠습니다,I will begin by summarizing the contents of my presentation.
+프레젠테이션,프레젠테이션 본론,본론의 도입,프레젠테이션의 주요 사항들을 사려보면서 시작하겠습니다,I will begin by going over the main points of my presentation.
+프레젠테이션,프레젠테이션 본론,본론의 도입,저희 마케팅 계획을 전체적으로 살펴보며 시작하고 싶습니다.,I'd like to open up by giving you an overview of our marketing plans.
+프레젠테이션,프레젠테이션 본론,본론의 도입,저희 회사의 최근 프로젝트 결과부터 시작해 보죠,Let's start with our company's recent project outcomes.
+프레젠테이션,프레젠테이션 본론,본론의 도입,"자, 먼저 말씀드리는 것은 바로 자가용은 연료 효율이 좋아야 한다는 것입니다","So first things first, cars should be energy efficient."
+프레젠테이션,프레젠테이션 본론,본론의 도입,제 첫번째 요점은 바로 기술적 특징에 관한 것입니다,My first point is on its technical features.
+프레젠테이션,프레젠테이션 본론,내용 연결,프레젠테이션의 처음 부분에서는 당사의 새 의류 라인의 견본을 몇 가지 보여 드리겠습니다,"In the first part of my presentation, I'll show you several samples of clothes in our new clothing lines."
+프레젠테이션,프레젠테이션 본론,내용 연결,"첫째로, 지금까지의 프로젝트 진행 상황에 관해 간략히 말씀드리겠습니다","Firstly, I'll give you a brief history of the project to date."
+프레젠테이션,프레젠테이션 본론,내용 연결,먼저 이 연구의 최근 조사 결과를 알려 드리겠습니다,"To begin, let me bring you up to date on the latest finding of the study."
+프레젠테이션,프레젠테이션 본론,내용 연결,그 후에 당사와 주요 경쟁업체 간의 품질 비교에 관해 발표하겠습니다,"After that, I would like to present a quality comparison between our company and our major competitor."
+프레젠테이션,프레젠테이션 본론,내용 연결,그 후에 현 지풀 품의서 절차에 관한 내용을 여러분께 직접 전해 드리겠습니다,"Following that, I will walk you through the current expense reporting procedure."
+프레젠테이션,프레젠테이션 본론,내용 연결,"그 다음으로, 20I4년도 재무보고를 살펴보도록 하겟습니다","Then, I am going to go over our financial report for the year 20I4."
+프레젠테이션,프레젠테이션 본론,내용 연결,"그러고 나서, 향후 저희가 직면하게 될 어려움에 대해 집중적으로 살펴볼 것입니다","And then, I will focus my attention on the difficulties that we are likely to face in the future."
+프레젠테이션,프레젠테이션 본론,내용 연결,"다음으로, I2개월 프로젝트 계획과 일정을 검토해 보고자 합니다","Next, I'd like to review the twelve-month project plan and timeline."
+프레젠테이션,프레젠테이션 본론,내용 연결,문화에 관한 제 두 번째 사항으로 넘어가겠습니다,Let me move on to my second point about culture.
+프레젠테이션,프레젠테이션 본론,내용 연결,여기서 저희의 현재 전략의 개요에 관한 제 프레젠테이션의 다음 부분으로 넘어가겠습니다,This brings me to the next part of my presentation which is an overview of our current strategies.
+프레젠테이션,프레젠테이션 본론,내용 연결,설명을 위해 이전 슬라이드로 돌아가도록 하죠,Let's get back to the previous slide for clarification.
+프레젠테이션,프레젠테이션 본론,내용 연결,"즉, 점점 더 많은 사람들이 친환경 제품에 관심을 보인다는 것입니다","That is, more and more people are interested in environmentally-friendly products."
+프레젠테이션,프레젠테이션 본론,청중을 내편으로 만들기 (유도하기),이것은 중국 기업들과의 합작을 고려하는 분들에게 도움이 될 것입니다,This is beneficial to those who are considering a joint venture with Chinese companies.
+프레젠테이션,프레젠테이션 본론,청중을 내편으로 만들기 (유도하기),팀을 더 효율적으로 관리하는 방법에 대한 정보를 얻으실 겁니다,You will take away tips on how to manage your teams more efficiently.
+프레젠테이션,프레젠테이션 본론,청중을 내편으로 만들기 (유도하기),오늘 프레젠테이션은 한국에서 투자 기회를 찾고 계신 분들에게 큰 가치가 있을 것이라고 생각합니다,I believe that today's presentation will be of great value to those seeking investment opportunities in Korea.
+프레젠테이션,프레젠테이션 본론,청중을 내편으로 만들기 (유도하기),오늘 프레젠테이션은 다가오는 회계 감사에 관련된 분들에게 꼭 필요한 것이라고 생각합니다,I believe that today's presentation will be essential to those involved in the upcoming audit.
+프레젠테이션,프레젠테이션 본론,청중을 내편으로 만들기 (유도하기),제 발표는 최근 예산 감축에 대처할 수 있는 하나의 지침이 될 것입니다,My presentation serves as a set of guidelines for dealing with our recent budget cuts.
+프레젠테이션,프레젠테이션 본론,청중을 내편으로 만들기 (유도하기),여러분은 우리 신제품을 어떻게 마케팅하시겠습니까?,How would you like to market our new product?
+프레젠테이션,프레젠테이션 본론,청중을 내편으로 만들기 (유도하기),여러분은 우리 신규 고객을 어떻게 만족시키겠습니까?,How would you like to satisfy our new customers?
+프레젠테이션,프레젠테이션 본론,청중을 내편으로 만들기 (유도하기),시간 관리에 관해 잠시 생각해 봅시다,Let us think for a moment about current economic trends.
+프레젠테이션,프레젠테이션 본론,청중을 내편으로 만들기 (유도하기),현 경제 동향에 대해 잠시 생각해 봅시다,Let us think for a moment about time management.
+프레젠테이션,프레젠테이션 본론,청중을 내편으로 만들기 (유도하기),미래에 대해 잠시 생각해 보죠. 40년 후에는 인구의 25%만 일을 하고 놀랍게도 50%는 연금을 탈 것이라는 것을 알고 계셨나요?,"Let us think for a moment about the future. Did you know that in 40 years, only 25 percent of the population wil be working, and a surprising 50 percent will be collecting a pension?"
+프레젠테이션,프레젠테이션 본론,청중을 내편으로 만들기 (유도하기),e-비즈니스에 관해 잠시 생각해 보죠. 모든 온라인 쇼핑 구매자 중 84%가 웹페이지가 뜨기까지 I0초밖에 기다리지 않는다는 것을 알고 계셨나요?,Let us think for a moment about e-business. Did you know that 84 percent of all Internet shoppers will only wait I0 seconds for a web page to load?
+프레젠테이션,프레젠테이션 본론,청중을 내편으로 만들기 (유도하기),빠르게 변하는 시장을 한번 생각해 보세요,Give some thought to the rapidly changing market
+프레젠테이션,프레젠테이션 본론,청중을 내편으로 만들기 (유도하기),여기 계신 여러분 가운데 몇 분이나 인터넷이 어린이들에게 치명적일 수 잇다는 것에 동의하십니까>,How many of you here agree with me that the Internet can be fatal to children?
+프레젠테이션,프레젠테이션 본론,청중을 내편으로 만들기 (유도하기),소규모 사업을 시작하기가 더 힘들어지고 있다는 것에 동의하십니까?,Do you agree that it's getting more challenging to open a small business?
+프레젠테이션,프레젠테이션 본론,청중을 내편으로 만들기 (유도하기),귀사의 인사 시스템이 바뀌어야 한다고 동의하시면 손들어 주세요,Raise your hand if you agree that your HR system should be modified.
+프레젠테이션,프레젠테이션 본론,청중을 내편으로 만들기 (유도하기),경영진이 인력의 절반을 해고하라고 여러분에게 요구했다고 가정해 보세요,Suppose that the management asked you to layoff half of your work force.
+프레젠테이션,프레젠테이션 본론,청중을 내편으로 만들기 (유도하기),일본인과 협상을 해야 했던 경험이 있으십니까?,Have you ever had to negotiate with the Japanese?
+프레젠테이션,프레젠테이션 본론,청중을 내편으로 만들기 (유도하기),저는 창의력이란 단어를 생각할때마다 약 6천년 전에 화장품을 발명한 고대 이집트 사람들이 떠오릅니다,"When I think about creativity, I'm reminded of the ancient Egyptians who invented cosmetics over 6000 years ago."
+프레젠테이션,프레젠테이션 본론,청중을 내편으로 만들기 (유도하기),십대 청소년들이 무엇 때문에 우리 상품을 구입하지 않는 것인지 보여 드린다면 발표 내용에 관심이 가시겠습니까?,"If I could show you what stops teenagers from buying our product, would you be interested?"
+프레젠테이션,프레젠테이션 본론,청중을 내편으로 만들기 (유도하기),임원들의 입장에서 생각해 보세요. 어떤 직원에게 호감을 느끼겠습니까?,Put yourselves into the shoes of executives. What kinds of employees would you be fond of?
+프레젠테이션,프레젠테이션 본론,청중을 내편으로 만들기 (유도하기),CEO와 면접을 본다고 상상해 보세요. CEO가 여러분께 묻는 첫 번째 질문이 무엇일까요?,Imagine yourself at a job interview with a CEO. What do you think the first question that he or she asks will be?
+프레젠테이션,프레젠테이션 본론,청중을 내편으로 만들기 (유도하기),고위 간부급에 왜 여성들이 적은지 생각해 보신 적 있으십니까?,Have you ever wondered why there are few women at the executive level?
+프레젠테이션,프레젠테이션 본론,청중을 내편으로 만들기 (유도하기),우리 고객들의 관심사에 대해 생각해 보셨습니까?상사와 대립해야한 하는 상황에 처해 본 경험이 있으십니까?,Have you ever thought about the interests of our customers?
+프레젠테이션,프레젠테이션 본론,청중을 내편으로 만들기 (유도하기),상사와 대립해야만 하는 상황에 처해 본 경험이 있으십니까?,Have you ever been in a situation where you had to confront your boss?
+프레젠테이션,프레젠테이션 본론,청중을 내편으로 만들기 (유도하기),회사의 가치에 우선 순위를 두어야 하는 상황에 처한 적 있으십니까?,Have you ever been in a situation in which you had to prioritize the company's values?
+프레젠테이션,프레젠테이션 본론,청중을 내편으로 만들기 (유도하기),작년 매출이 I0년 만에 가장 높았다는 것을 알고 계셨나요?,Did you know that our sales last year were the highest they have been in I0 years?
+프레젠테이션,프레젠테이션 본론,청중을 내편으로 만들기 (유도하기),인터넷이 텔레비전보다 효과가 더 큰 고아고 매체인 이유를 알고 계십니까?,Do you know why the Internet is a more effective advertising media than television?
+프레젠테이션,프레젠테이션 본론,청중을 내편으로 만들기 (유도하기),고객이 우리 상품에 절대 완전히 만족하지 않는 이유를 짐작하실 수 있겠습니까?,Can you guess why our clients are never fully satisfied with our products?
+프레젠테이션,프레젠테이션 본론,청중을 내편으로 만들기 (유도하기),이 문제를 해결하기 위해 우리가 할 수 있는 일이 무엇일까요?,What can we do to solve this problem?
+프레젠테이션,프레젠테이션 본론,청중을 내편으로 만들기 (유도하기),공해를 줄이기 위해 우리가 해야 할 일은 무엇일까요?,What should we do to reduce pollution?
+프레젠테이션,프레젠테이션 본론,청중을 내편으로 만들기 (유도하기),여러분은 우리의 마케팅 전략을 어떻게 개선하시겠습니까?,How would you go about improving our marketing strategies?
+프레젠테이션,프레젠테이션 본론,순서대로 진행하기,"첫째로, 저희 투자 계획의 현황에 대해 말씀드리겠습니다.","Firstly, let me tell you the current status of our investment plan."
+프레젠테이션,프레젠테이션 본론,순서대로 진행하기,"두 번째로, 여러분의 파워포인트 프레젠테이션을 활기 있게 할 수 있는 방법으로 넘어가 보도록 하겠습니다.","Secondly, I would like to move on to some methods to spice up your PowerPoint presentations."
+프레젠테이션,프레젠테이션 본론,순서대로 진행하기,다음으로 이 수치들을 살펴보도록 하겟습니다.,"Next, I'd like to go over some of these figures."
+프레젠테이션,프레젠테이션 본론,순서대로 진행하기,"마지막으로, 신상품에 관한 몇 가지 의견을 말씀드리겟습니다","Finally, I will provide some comments on our new product."
+프레젠테이션,프레젠테이션 본론,순서대로 진행하기,제가 먼저 다루고 싶은 주제는 반품과 교환에 관한 규정입니다,The first subject I'd like to cover is our policy on returns and exchanges.
+프레젠테이션,프레젠테이션 본론,순서대로 진행하기,이 내용은 다음 단계인 신임 관리자들을 위한 경영 훈련 과정의 중요성으로 연결됩니다,"This brings us to the next point, which is the importanceof a management training course for new managers."
+프레젠테이션,프레젠테이션 본론,순서대로 진행하기,계속해서 미국 시장 문제로 넘어가면 전망이 긍정적이라고 말씀드리겠습니다.,"Moving on to the question of the US market, I would say that the prospect is positive."
+프레젠테이션,프레젠테이션 본론,내용 보충,우리의 영업 인력의 부족 문제뿐 아니라 높은 이직률을 줄일 수 있는 대책을 강구해야 합니다,"In addition to the shortage in our sales workforce, we need to take measures to reduce the high turnover rate."
+프레젠테이션,프레젠테이션 본론,내용 보충,"ns만 아니라, 오늘 미 달러화는 일본 엔화에 대해 급락했습니다","Moreover, the US dollar dropped sharply against the Japanese yen today."
+프레젠테이션,프레젠테이션 본론,내용 보충,또한 대부분의 회사들은 제공하는 제품과 서비스의 개선을 통해 시장 원리에 대응합니다,"What's more, most businesses react to market forces by making changes to the goods and services they offer."
+프레젠테이션,프레젠테이션 본론,반대 내용 제시,저희 회사는 직원들에게 근무 시간 자유 선택제를 제공합니다. 하지만 하계 근무 시간 자유 선택제는 부서마다 다를 것 같습니다.,"Our company is offering staff flexible working hours. However, summer flextime policies are likely to be different in each department."
+프레젠테이션,프레젠테이션 본론,반대 내용 제시,지난번에 실시한 해결책에도 불구하고 우리 부서 내 의사소통 문제는 여전히 존재합니다,"Despite the solutions we implemented last time, communication problems still remain in our department."
+프레젠테이션,프레젠테이션 본론,반대 내용 제시,많은 신기술이 개발되고 잇으나 우리고객은 변화 속도를 따라가는 것에 불편해 하는 것 같습니다,"More and more new technology is being developed, but our customers seem uncomfortable with the speed of changes."
+프레젠테이션,프레젠테이션 본론,원인 및 결과 설명,회사에서의 소통이 잘못되는 원인이 무엇일까요?,What causes miscommunications in work places?
+프레젠테이션,프레젠테이션 본론,원인 및 결과 설명,주의 집중이 잘못된 의사소통의 원인이 됩니다,Lack of attention causes miscommunication.
+프레젠테이션,프레젠테이션 본론,원인 및 결과 설명,그렇다면 허리 통증이나 부상을 예방하는 방법에는 무엇이 있을까요?,So what can you do to prevent back strain or injury?
+프레젠테이션,프레젠테이션 본론,원인 및 결과 설명,따라서 재무팀은 연구개발 예산을 늘리는 것이 바람직합니다,"Therefore, it's desirable for the Finance Department to raise the research and development budget."
+프레젠테이션,프레젠테이션 본론,원인 및 결과 설명,따라서 우리가 시장의 차기 주자가 될 가능성이 무척 높습니다,"Thus, the possibility is very high that we may be the next market leader."
+프레젠테이션,프레젠테이션 본론,원인 및 결과 설명,"결과적으로, 노사간 협상을 해야 합니다","As a result, labor and management need to negotiate."
+프레젠테이션,프레젠테이션 본론,원인 및 결과 설명,"결과적으로, 노사간 협상을 해야 합니다","As a result, labor needs to negotiate with management."
+프레젠테이션,프레젠테이션 본론,설명한 내용 마무리,이것이 구조조정 문제에 관해 제가 말씀드릴 수 있는 전부입니다,This is all I have for the issue of restructuring.
+프레젠테이션,프레젠테이션 본론,설명한 내용 마무리,이 주제에 관해서는 이게 전부입니다,That's all for this topic.
+프레젠테이션,프레젠테이션 본론,설명한 내용 마무리,이것이 저소득층을 위한 주택 정책에 대해 제가 말슴드리고 싶었던 전부입니다,That's all I wanted to say about the housing policy for low-income earners.
+프레젠테이션,프레젠테이션 본론,설명한 내용 마무리,이것으로 프레젠테이션의 이 부분은 결론에 이른 것 같습니다,I guess this concludes this part of my presentation.
+프레젠테이션,프레젠테이션 본론,설명한 내용 마무리,지금까지 내용이 대체로 제 요지의 결말입니다,I think that pretty much concludes my point here.
+프레젠테이션,프레젠테이션 본론,기간 대비 비교,지난 분기 이전에 당사 수익은 연간 20% 성장했습니다,"Prior to last quarter, our revenues grew at an annual rate of 20%."
+프레젠테이션,프레젠테이션 본론,기간 대비 비교,I990년대 말에 우리와 같은 중소기업들은 한국 시장에서 어려움을 겪었습니다.,"Back in the late I990s, small and medium-sized businesses like us had a tough time in the Korean market."
+프레젠테이션,프레젠테이션 본론,기간 대비 비교,9월 이후 총 지수는 7개월째 줄곧 50을 밑도는 수준이었습니다,"Since September, the total index has remained below 50 for the 7th consecutive month."
+프레젠테이션,프레젠테이션 본론,기간 대비 비교,그 이후로 수익이 월 I5%정도 계속 감소하고 잇습니다,"From then on, our profits have been decreasing about I5% a month."
+프레젠테이션,프레젠테이션 본론,기간 대비 비교,올 한 해 동안 공장의 수는 수만 개로 증가할 것입니다,"Over the course of this year, the number is going to grow into tens of thousands of factories."
+프레젠테이션,프레젠테이션 본론,기간 대비 비교,그러는 동안 우리는 수익을 증대시켜야 합니다,"Meanwhile, we have to increase our revenues."
+프레젠테이션,프레젠테이션 본론,기간 대비 비교,그러는 동안 우리는 새로운 변화에 대비해야 합니다,"In the meantime, we should be ready for new changes."
+프레젠테이션,프레젠테이션 본론,기간 대비 비교,"당사의 목표는 향후 5년 내에 수익 I,000억 원을 달성하는 것입니다","In the coming five years, our goal is to reach I00 billion KRW in revenue."
+프레젠테이션,프레젠테이션 본론,기간 대비 비교,일본 정부는 지난 I0년 동안 새로운 일자리 창출에 힘써 왓습니다,The Japanese government has made great efforts in creating new jobs in the past decade.
+프레젠테이션,프레젠테이션 본론,기간 대비 비교,지난 I0년간 우리 수익은 매년 두 자리 수로 증가했습니다,"Over the past decade, our revenues have had double digit increases annually."
+프레젠테이션,프레젠테이션 본론,기간 대비 비교,작년 총 매출이 20%올랐습니다. 그럼에도 불구하고 우리는 여전히 일본에서 고전햇습니다,"Total sales were up 20% last year. In spite of this, we were faced with a lot of trouble in Japan."
+프레젠테이션,프레젠테이션 본론,기간 대비 비교,"올해 국내 경기가 침체되었지만, 우리는 3년째 연속해서 연 I5% 성장률을 유지할 수 있었습니다","Even though the domestic economy has been stagnant this year, we have managed for the third year in a row to sustain a I5% annual growth rate."
+프레젠테이션,프레젠테이션 본론,다른 내용 소개,여기서 잠시 이 자료를 보여 드리죠,Let me show you this data for a second here.
+프레젠테이션,프레젠테이션 본론,다른 내용 소개,잠시 본론에서 벗어나 융통성 잇는 정책이 무엇인지 설명하고자 합니다,I'd like to digress for a minute and explain what a flexible policy means.
+프레젠테이션,프레젠테이션 본론,다른 내용 소개,참고로 이 그래프를 보여 드리죠,"By the way, let me show you this graph."
+프레젠테이션,프레젠테이션 본론,다른 내용 소개,잠깐 옆길로 새서 우리가 취할 수 있는 다른 옵션에 대해 이야기해 봅시다,"To digress a little bit, let us talk about other options we have."
+프레젠테이션,프레젠테이션 본론,다른 내용 소개,"잠깐 옆길로 새서, 영화 검열 절차에 대해 설명해 드리지요","Digressing for a moment, let me explain the process in censoring a film."
+프레젠테이션,프레젠테이션 본론,다른 내용 소개,불법 노동자 문제로 돌아갑시다,Let's go back to this issue of illegal workers.
+프레젠테이션,프레젠테이션 본론,다른 내용 소개,"기업 합병 문제로 되돌아가서 말씀드리자면, 저희는 선택의 여지가 없다고 봅니다","Going back to the question of M&As, I would say we have no choice."
+프레젠테이션,프레젠테이션 본론,다른 내용 소개,또 다른 가능성은 저희의 인터넷 사업 영업을 확장하는 것입니다,Another possibility is expanding our e-business areas.
+프레젠테이션,프레젠테이션 본론,다른 내용 소개,여기서 잠깐 멈추고 우리 회사의 설립 철합을 되새겨 봅시다,Let us pause for a moment here and be reminded of our company's founding philosophy.
+프레젠테이션,프레젠테이션 본론,다른 내용 소개,제가 앞서 말씀드렸던 부분으로 돌아가겠습니다,Let me return to what I was talking about before.
+프레젠테이션,본론 내용 전개,중요내용 강조 및 요점 전달,제가 강조하고자 하는 점은 저희 경영진을 개편할 필요가 있다는 것입니다.,The point that I’d like to emphasize is that we need to reshuffle our management. 
+프레젠테이션,본론 내용 전개,중요내용 강조 및 요점 전달,제가 강조하고자 하는 것은 협상 가이드라인을 제시해야 한다는 것입니다.,What I’d like to stress is that we need to come up with negotiation guidelines.
+프레젠테이션,본론 내용 전개,중요내용 강조 및 요점 전달,제가 강조하고 싶은 것은 우리는 영업 교육 원크숍을 준비할 필요가 있다는 것입니다.,What I'd like to stress is that we need to arrange sales training workshops.
+프레젠테이션,본론 내용 전개,중요내용 강조 및 요점 전달,제가 집중적으로 살펴보고자 하는 것은 바로 이 22인치 LED 모니터입니다,What I'd like to focus on is this 22-inch LED monitor.
+프레젠테이션,본론 내용 전개,중요내용 강조 및 요점 전달,제가 여기서 강조하고 실은 접은 우리에게는 구조 조정이 필요하다는 것입니다,The important point here that I'd like to emphasize is that we need restructuring.
+프레젠테이션,본론 내용 전개,중요내용 강조 및 요점 전달,당연한 문제는 우리가 시장 선두 주자가 아니라는 것입니다,The problem at hand is that we are not a market leader
+프레젠테이션,본론 내용 전개,중요내용 강조 및 요점 전달,여기서 쟁점은 한국 학생은 창의력과 혁신이 부족하다는 것입니다.,The issue here is that Korean students lack creativity and innovation.
+프레젠테이션,본론 내용 전개,중요내용 강조 및 요점 전달,중요한 사실은 우리는 중국의 경제력 증가를 경계해야 한다는 것입니다.,The thing is that we need to be alarmed by the increase in China’s economic power.
+프레젠테이션,본론 내용 전개,중요내용 강조 및 요점 전달,여러분은 자신의 일을 즐기는 것이 특히 중요합니다.,It is especially important that you enjoy your job.
+프레젠테이션,본론 내용 전개,중요내용 강조 및 요점 전달,저희가 여기서 제안하는 가이드라인은 많습니다. 특히 세 번째 사항은 제가 오늘 강조해 드리고 싶은 점입니다.,There are many guidelines we suggest here. Number 3 in particular is the point that I’d like to emphasize today.
+프레젠테이션,본론 내용 전개,중요내용 강조 및 요점 전달,이 프로젝트의 성과에 대해 우리는 매우 흥분해 있습니다,We are extremely excited about the outcome of this project. 
+프레젠테이션,본론 내용 전개,중요내용 강조 및 요점 전달,비용을 걱정하시는 것은 아주 당연한 일이죠.,You are absolutely right to worry about the cost.
+프레젠테이션,본론 내용 전개,중요내용 강조 및 요점 전달,간단히 말하자면， 가격을 내려야 합니다.,"Simply put, we need to cut prices."
+프레젠테이션,본론 내용 전개,중요내용 강조 및 요점 전달,근본적으로， 우리는 해결책이 필요하며 ， 바로 지금 필요합니다,8asicallι we need a solution and we need it now.
+프레젠테이션,본론 내용 전개,중요내용 강조 및 요점 전달,대체로， 우리는 경쟁사가 예상했던 것보다 훨씬 더 잘해 왔습니다.,"Generally, we have done much better than our competitors had expected"
+프레젠테이션,본론 내용 전개,중요내용 강조 및 요점 전달,간단히 말하지연 ， 6시그마 도입이 생산성 증가에 도움이 되었습니다,"To put it simply, the introduction of Six Sigma has helped to increase productivity."
+프레젠테이션,본론 내용 전개,중요내용 강조 및 요점 전달,무엇보다도， 우리 회사는 5년 이상 흑자를 유지했습니다,"Above all, our company has been in the black for more than 5 years."
+프레젠테이션,본론 내용 전개,중요내용 강조 및 요점 전달,달리 말하자면 ， 시에서 올해 판매세 수입이 7% 감소할 것입니다,"In other words, the city estimates sales tax revenues will be down by 7 percent this year."
+프레젠테이션,본론 내용 전개,중요내용 강조 및 요점 전달,방금 제가 말한 것을 바꿔 표현하면， 광고의 본질은 특정 제품을 사도록 사람들을 설득하는것입니다,"If I can rephrase what I just said , the essence of advertising is to persuade people to buy a particular product."
+프레젠테이션,본론 내용 전개,중요내용 강조 및 요점 전달,달리 표현하면 올해는 전세금이 급등할 것입니다.,"To put it another way, rental deposits will skyrocket this year"
+프레젠테이션,본론 내용 전개,중요내용 강조 및 요점 전달,좀 더 엄밀한 의미에서， 미디어에 관한 견해는 사람마다 다릅니다.,"In more technical terms, the view of the media varies from person to person."
+프레젠테이션,본론 내용 전개,중요내용 강조 및 요점 전달,국내 경제 여건에서 보면， 국제 시장에서의 우리 회사의 위치는 최상입니다,"With regard to local economic conditions, our position in the global market has never been better."
+프레젠테이션,본론 내용 전개,중요내용 강조 및 요점 전달,우리 회원들은 런던 증권 거래소의 운영 상황을아주 상세히 듣는 것에 특히 관심이갈것입니다,Our members will be particularly interested to hear in great detail the workings of the London Stock Exchange.
+프레젠테이션,본론 내용 전개,중요내용 강조 및 요점 전달,북부 악어 가죽 제품은 여러 나라에서 호평을 받아 왔는데， 특히 동유럽의 신흥 부유층사이에그렇습니다,"Leather goods made from the skin of the northern crocodile are prized in many countries, especially among the newly rich in Eastern Europe."
+프레젠테이션,본론 내용 전개,중요내용 강조 및 요점 전달,무엇보다도 인수합병은 사업을 확장하는 데 가장 효과적입니다.,"Among other things, M&As are the most effective way to expand business."
+프레젠테이션,본론 내용 전개,중요내용 강조 및 요점 전달,보다 중요한 것은， 우리의 주 목적은 새로운 네트원크 시스템을 구축하는 것입니다,"More significantly, our main objective is to build a new network system."
+프레젠테이션,본론 내용 전개,중요내용 강조 및 요점 전달,보다 중요한 것은， 요는 너무 많은 것을 너무 빨리 기대할 수는 없다는 것입니다.,"More importantly, the point is that we can’t expect too much too soon."
+프레젠테이션,본론 내용 전개,중요내용 강조 및 요점 전달,저희 회사는 특히 인쇄물 광고 및 전자 광고 캠페인뿐 아니라 국내외 마케팅 전략의기획에도 참여할 것입니다.,"In particular, we will be involved in planning national and international marketing strategies, including print and electronic advertising campaigns"
+프레젠테이션,본론 내용 전개,중요내용 강조 및 요점 전달,불업 거래 문제에 관해서 증권사들은 좀 더 엄격한 통합 규정의 적용을 시작했습니다,"In connection with the issue of illegal transa ctions, brokerages have launched unified and stricter regulations. "
+프레젠테이션,본론 내용 전개,중요내용 강조 및 요점 전달,저희는 무선 통신 유통과 관련된 문제 해결메 있어 SP 델레콤 사의 역할 증대를 기대할수있습니다,We can anticipate an increase in SP Telecom’s role in settling issues concerning the distribution of wireless communlcatlon.
+프레젠테이션,본론 내용 전개,중요내용 강조 및 요점 전달,고객 만족도에 관한 한 우리는 누구한테도 지지 않습니다.,"As far as customer satisfaction is concerned , we are second to none."
+프레젠테이션,본론 내용 전개,중요내용 강조 및 요점 전달,직원들을 해고하는 수밖에 없슴니다.,There is no alternative but to lay off some staff.
+프레젠테이션,본론 내용 전개,중요내용 강조 및 요점 전달,다시 한 번 더 시도해 보는 수밖에 없습니다.,There is no other choice but to give it one more try
+프레젠테이션,본론 내용 전개,중요내용 강조 및 요점 전달,그럼 제가 말하고자 하는 요점은 무엇일까요? 제 요점은 연구개발부에 연구원을 더채용해야 한다는 것입니다.,So what is my point? My point is that we should hire more researchers in our R&D Department.
+프레젠테이션,본론 내용 전개,중요내용 강조 및 요점 전달,그래서 우리의 주 목적이 무엇이냐고요? 우리의 주 목적은 환경오염을 줄이자는 것입니다,So what’s our main objective? Our main objective is to reduce pollution
+프레젠테이션,본론 내용 전개,중요내용 강조 및 요점 전달,그 결과가 어랬을까요? 결과는 완전 실패였슴니다.,What was the result? The result was a disaster.
+프레젠테이션,본론 내용 전개,중요내용 강조 및 요점 전달,저희 경쟁사들도 저희 상품을 염두에 둔 것처럼 보입니다.,It seems our competitors had our products in mind.
+프레젠테이션,본론 내용 전개,중요내용 강조 및 요점 전달,약간늦었습니다,lt's just a little bit behind.
+프레젠테이션,본론 내용 전개,중요내용 강조 및 요점 전달,아마도 우리는 구조 조정을 고려해야 할 것 같군요,Perhaps we should consider downsizing
+프레젠테이션,본론 내용 전개,중요내용 강조 및 요점 전달,미국과 영국은 공동점이 거의 없다고 말하는 것이 아마 보다 정확할 것입니다.,Perhaps it would be more accurate to say that the US and Britain have very little in common.
+프레젠테이션,본론 내용 전개,중요내용 강조 및 요점 전달,뭔가 해결 방안이 있을 것입니다.,There might be some solutions.
+프레젠테이션,본론 내용 전개,중요내용 강조 및 요점 전달,기업들이 경기 불황 때 방어적인 태도를 취하는 경항이 있습니다,Businesses tend to be defensive during a recession .
+프레젠테이션,본론 내용 전개,중요내용 강조 및 요점 전달,어느 정도는， 그 회사는 고객을 끄는 데 실패했습니다,"To some extent, the company failed to attract customers."
+프레젠테이션,본론 내용 전개,비교,비슷하게 ， 플라자 호텔과 힐튼 호텔 앙쪽 다 저자극성 객실이 있습니다.,Similarlι both the Plaza Hotel and the Hilton Hotel have hypoallergenic rooms마찬가지로， 수출
+프레젠테이션,본론 내용 전개,비교,마찬가지로， 수출 기업의 매출은 지난 분기의 2.I 퍼센트의 감소에 비해 2.I 퍼센트상승하였습니다,"Likewise, sales of exporting companies rose 2.I percent, compared to the previous quarter’s decrease of 2.I percent."
+프레젠테이션,본론 내용 전개,비교,같은 방법으로. T폰은 수많은 무료 업을 받을 수 있습니다.,"In the same way, T-Phone has access to hundreds and hundreds of free applications."
+프레젠테이션,본론 내용 전개,비교,마찬가지로， T폰2는 인터넷에 접속하기 위해 무선 연결을 이용할니다.,"Likewise, T-Phone 2 uses a wireless connection to access the Internet "
+프레젠테이션,본론 내용 전개,비교,또한， 요리를 빨리 하기 위해 이 버튼을 누르면 됩니다.,"In like manner, you press this button to speed up the cooking time. "
+프레젠테이션,본론 내용 전개,비교,아이폰 4와 갤럭시 4는 몇 가지 비슷한 점이 있습니다,There are several similarities between the i-Phone 4 and the Galaxy 4.
+프레젠테이션,본론 내용 전개,비교,토크준의 디스플레이는 아이폰의 디스플레이와 꽤 비슷합니다.,The display of the Talk-Zune is quite similar to that of the i-Phone
+프레젠테이션,본론 내용 전개,비교,우리는 BWC 사보다 교육면에서 더 전문적입니다,We are more specialized in training than BWC.
+프레젠테이션,본론 내용 전개,비교,플랜 B는 플랜 A보다 덜 위험합니다,Plan B is less risky than Plan A.
+프레젠테이션,본론 내용 전개,비교,저희의 245 모델은 지난번 모델만큼이나 멋지죠.,Our 245 model is as stylish as the previous model
+프레젠테이션,본론 내용 전개,비교,저희의 새로운 전략은 지난번 전략과 많은 점에서 다릅니다,Our new strategy is different from the previous one in many ways.
+프레젠테이션,본론 내용 전개,비교,경제 불안정과 정치 불안정은 여러 가지 연에서 다릅니다,Economic instability and political instability are different
+프레젠테이션,본론 내용 전개,비교,새로운 영업 전략은 저희의 과거 관행과 매우 유사합니다,The new sales strategy is quite similar to our past practlces
+프레젠테이션,본론 내용 전개,비교,이 새 기계는 저희가 사용했던 예전 기계와 유사합니다,This new machine is similar to the old one we used.
+프레젠테이션,본론 내용 전개,비교,우리 회사의 500 7 I가바이트 저장장치는 경쟁업체의 제품과 몇 가지 공동점이 있니다습,Our 500-gigabyte storage devices and our competitor’s have several things in common.
+프레젠테이션,본론 내용 전개,비교,우리의 새로운 소프트웨어는 지난번 것과 많은 면에서 유사합니다. 그래서 사용하시기엔 어려움이 없을 것입니다.,"Our new software is similar to the previous one in many ways, so you won’t have difficulties using it."
+프레젠테이션,본론 내용 전개,비교,우리의 전략은 몇 가지 점에서 경쟁사의 전략과 너무 흩사합니다.,Our strategy is way too sim ilar to our competitor’s in several ways
+프레젠테이션,본론 내용 전개,비교,중산층과 고소득층 사이에는 저희의 상품에 대한 의견에 많은 유사접이 있습니다.,There are a lot of similarities in the views of our products between the middle and high income classes
+프레젠테이션,본론 내용 전개,비교,우리는 영업 전략 연에서 우리 경쟁사와 다릅니다,We differ from our competitors in sales strategies.
+프레젠테이션,본론 내용 전개,비교,M사 스마트 폰은 디자인이 특이하다는 점에서 S사 스마트폰과 다릅니다,Company M's smartphones differ from Company S's smartphones as their designs are unique.
+프레젠테이션,본론 내용 전개,비교,금년과 작년의 수치를 비교해 보면 탈세 건이 크게 증가하였습니다,"If you compare this year’s figure and last year's, there is a huge increase in the cases of tax evasion."
+프레젠테이션,본론 내용 전개,비교,20I4년 이분기와 삼분기 결과를 비교해 보면 매풀이 크게 항상된 것으로 나타나 있습니다.,A comparison between the second and third quaπers of the 20I4 results reveals a substantial improvement in sales. 
+프레젠테이션,본론 내용 전개,비교,치솟는 물가와 비교했을 때 인건비는 같은 자리에 머물고 있습니다,"In comparison with rapidly rising cost of living, the cost of labor has stayed the same"
+프레젠테이션,본론 내용 전개,비교,4월에는 I 년 전에 비해 광고 페이지가 I5.9% 줄었습니다,"In April , ad pages were down I5.9 percent, compared with a year earlier."
+프레젠테이션,본론 내용 전개,비교,제가 생각하기로는 우리 가격이 경쟁사들의 가격에 비해 좀 더 비씹니다.,My own assessment is that our prices are slightly more expensive than our competitors’ 
+프레젠테이션,본론 내용 전개,비교,제 생각에는 장기 투자를 하기에는 인도가 중국보다 k넙니다.,"In my opinion, India is a better place for a long-term investment than China."
+프레젠테이션,본론 내용 전개,비교,윈도우 XP와 윈도우 비스타는 비교가 안 됨니다.,There is no comparison between Windows XP and Windows VISTA.
+프레젠테이션,본론 내용 전개,비교,저희 신상품을 경쟁사의 신상품과 단순히 비교할 수는 없습니다,You just cannot simply compare our new products and our competitor’s.
+프레젠테이션,본론 내용 전개,비교,반면， 예스피는 무료 음악과 영화 이용이 제한되어 있습니다.,"In contrast, Yespi has limited access to free music and movles."
+프레젠테이션,본론 내용 전개,비교,반면 ， 저희 제품은 3년 품질 보증 기간이 있습니다,Contrarilι our product has a three-year warranty period.
+프레젠테이션,본론 내용 전개,비교,이에 반하여 ， 릴렌자는 흘입기를 사용하여 투여되어야 할니다,"On the contrary, Relenza has to be administered using monthly maintenance.,"
+프레젠테이션,본론 내용 전개,비교,반면에 . K6는 월간 유지비가 20퍼센트 더 듭니다,"On the other hand, a K6 costs 20 percent more for"
+프레젠테이션,본론 내용 전개,비교,하지만 저희의 새로운 시스템은 2회 교육만 요구될니다,"However, our new system requires only two training Sesslons"
+프레젠테이션,본론 내용 전개,비교,사실은 이 새로운 시스템은 추가로 십만 달러가 더 듭니다.,"In fact, this new system costs an extra I00,000 dollars."
+프레젠테이션,본론 내용 전개,비교,비록 저희 상품은 다른 비슷한 상품보다 I5퍼센트 가랑 킹이 더 나가지만， 이것은 시장의 다른 어떤 상품보다 더 믿을만하고 오래갑니다,"Although our product costs about I5 percent more than other similar products, it is more reliable and durable than any other product in the market."
+프레젠테이션,본론 내용 전개,비교,현행 세법은 민간인에게 제공된 뇌물만을 과세 대상으로 포함시키고 있을 뿐， 정치인에게 제공된 정치적 뇌물에 대해서는 그러한 법이 적용되지 않습니다,"The current tax laws only include bribes given to civilians, whereas political bribes given to politicians are not covered by those laws. "
+프레젠테이션,본론 내용 전개,의견제시,제가 볼 때 ， 우리는 다른 회사들보다 기술 면에서 앞서 있습니다.,"As far as I’m concerned, we are ahead of other companies when it comes to technology."
+프레젠테이션,본론 내용 전개,의견제시,제가 아는 한， 우리의 신상품은 접진적으로 시장 점유율을 장악하고 있습니다.,"To my knowledge, our new product is taking over market share gradually. "
+프레젠테이션,본론 내용 전개,의견제시,자유무역협정이 혜택의 장기적인 경제에 유리하다는 것을 확신합니다,|’m certain that FTAs are beneficial for the long-term economy of Korea
+프레젠테이션,본론 내용 전개,의견제시,저는 우리가 프로그래머들을 추가 채용할 필요가 있다고 확신합니다.,I'm convinced that we should hire additional programmers
+프레젠테이션,본론 내용 전개,의견제시,우리의 해외 생산을 확대하는 것이 즐겠다고 생각합니다,I think we should expand our overseas production.
+프레젠테이션,본론 내용 전개,의견제시,조합원들은 그들의 현황을 확인해야만 합니다,Our associates must confirm their current status
+프레젠테이션,본론 내용 전개,의견제시,저는 각 교육과정이 각각 독자적인 수업으로 활용될 수 있는 모률로 구성되어야 한다고주ε펠니다,"I maintain that every training course sho 비 d consist of modules, each of which can stand alone as an independent lesson."
+프레젠테이션,본론 내용 전개,의견제시,저는 새 회계 연도까지 기다리지 말고 프로그래머들을 더 고용해야 한다고 확신합니다,|’m quite positive that we should hire additional programmers instead of waiting until the new fiscal year.
+프레젠테이션,본론 내용 전개,의견제시,저는 저희의 신상품이 시장에서 굉장히 매력적일 거라고 확신합니다.,I'm sure that our new products will be very attractive in the market.
+프레젠테이션,본론 내용 전개,의견제시,대부분의 농부들은 자유무역협정이 농업에 치명적이라고 주ε합니다,Most farmers argue that FTAs are lethal to the agricultural industry.
+프레젠테이션,본론 내용 전개,의견제시,이것은 단지 가격을 줄이기 위한 일시적인 해결책임을 주장합니다.,I contend that this is only meant to be a temporary solution to reducing cost.
+프레젠테이션,본론 내용 전개,의견제시,생산 늘리기 위해서 우리는 이 계획을 진행해야 합니다.,We should pursue this plan to increase output.
+프레젠테이션,본론 내용 전개,의견제시,정부의 새로운 법안은 철회되어야 합니다,The government’s new legislation ought to be withdrawn.
+프레젠테이션,본론 내용 전개,의견제시,협력 업체들은 우리와 새로 계약하기 전에 자신들의 현 상훌멸 확인해야 합니다.,Our associates must confirm their current status beforesigning a new contract with us.
+프레젠테이션,본론 내용 전개,의견제시,일반적으로 우리의 브랜드 충성도가 중산층 소비자 사이에서 높다고 합니다,"Generally, it is said that our brand loyalty is high among middle class consumers."
+프레젠테이션,본론 내용 전개,의견제시,일반적으로 고객들은 우리의 소프트웨어 제품이 비싼 편이라고 생각한다고 합니다.,"Generally speaking, it is said that customers find our software products rather expensive."
+프레젠테이션,본론 내용 전개,의견제시,아울러 말씀드리고 싶은 것은 한국 어디를 가더라도 우리보다 더 좋은 가격은 없다는 것입니다,Let me also note that you can’t beat our prices anywhere in Korea.
+프레젠테이션,본론 내용 전개,부연설명,불공평이 무엇을 의미하는 것인지 더 설명해 드리도록 하죠,Let me explain further what I mean by inequity.
+프레젠테이션,본론 내용 전개,부연설명,예컨대 ， 러시아는 그 조약을 I990년에 비준하였습니다.,"For example, Russia ratified the treaty in I990."
+프레젠테이션,본론 내용 전개,부연설명,무엇보다도， 한국이 성장 속도를 회복하기 위해서는 보다 많은 투자가 관건입니다,"Above all , more investment is the key for Korea to recover its growth momentum."
+프레젠테이션,본론 내용 전개,부연설명,뿐만 아니라 선물은 뇌물로 오해를 받을 수 있습니다.,"What's more, a gift can be misunderstood as a bribe."
+프레젠테이션,본론 내용 전개,부연설명,게다가， GXP는 주주 가치를 개선했습니다,"On top of that, GXP has improved shareholder value."
+프레젠테이션,본론 내용 전개,부연설명,특히， 우리는 꼭 필요한 경우에만 우리 체제를 바꿀 것입니다.,"In particular, we will change our system only when it is necessary."
+프레젠테이션,본론 내용 전개,부연설명,일자리 제의를 수락할 때 고려할 요소가 많은데， 예를 들면 안정성， 승진，편한 출퇴근등입니다,"There are many factors to consider when accepting a job offer, such as job security, promotion, and an easy commute."
+프레젠테이션,본론 내용 전개,부연설명,예를 들어 ， 이자율이 I6%일 경우 72를 I6으로 나누면 4.57f 나오므로 돈이 두 배가 되는 데는 4년 반이 걸립니다.,"For instance, in the case of a I6% interest rate, 72 divided by I6 equals 4.5, so it takes four and a half years for money to double"
+프레젠테이션,본론 내용 전개,근거제시,이 통계에서 보시는 것처럼， 대부분의 아동학대 피해자는 소녀들입니다,"As you see in these statistics, most victims of child abuse are girls."
+프레젠테이션,본론 내용 전개,근거제시,웰치 박사의 연구에 기술되어 있듯이 ， 약 80퍼센트의 임산부들은 모유 수유를 계획합니다,"As described in Dr. Welch’s research, about 80 percent of pregnant mothers plan on breast feeding."
+프레젠테이션,본론 내용 전개,근거제시,유럽 자동차 협회에 따르면， 자동차 산업의 미래는 바로 녹색 기술 중심으로 돌아갑니다,"According to the European Automobile Association , the future for the industry revolves around green technology."
+프레젠테이션,본론 내용 전개,근거제시,보도 자료에 의하면， 그 회사는 내년에 새로운 기계를 몇 대 도입할 계획입니다,"According to the press release, the company is planning to introduce several new machines in the coming year."
+프레젠테이션,본론 내용 전개,근거제시,전문가들은 2030년쯤에는 한국에서도 열대 과일이 재배될 것이라고 추정합니다.,Experts estimate that by the year 2030 tropical fruits can be grown in Korea. 
+프레젠테이션,본론 내용 전개,근거제시,광범위한 연구조사를 근거로， 저는 우리의 해외 사업을 확대해야 한다고 주장합니다,"8ased on extensive research , I would argue that we should expand our overseas businesses."
+프레젠테이션,본론 내용 전개,근거제시,최근 조사에 나타나 있듯이 ，한국의 자살률이 증가하고 있습니다.,"As described in the recent survey, the suicide rate in Korea is on the rise."
+프레젠테이션,본론 내용 전개,근거제시,통계치가 시사하는 바에 의하면， 총 수익이 증가하고 있다는 것을 알 수 있습니다.,"Looking behind the statistics, we see that total revenues are on the rise. "
+프레젠테이션,본론 내용 전개,근거제시,제 말의 요지를 사실과 수치로 설명해 보겠습니다.,Let me illustrate my point with facts and figures
+프레젠테이션,본론 내용 전개,근거제시,한 가지 예만 더 들자면， 경쟁사들은 저희 전략을 따라하기 시작했습니다,"To cite just one more example, our competitors have started imitating our strategy."
+프레젠테이션,본론 내용 전개,시각 자료 활용,여러분께 보여 드릴 순서도[슬라이드， 원 그래프， 도표]가 있습니다.,"I have some flow charts[slides, pie charts, diag ramsl to show you."
+프레젠테이션,본론 내용 전개,시각 자료 활용,몇 가지 차트를 통해 이 부분을 설명해 드리겠습니다,Let me explain this part with some charts.
+프레젠테이션,본론 내용 전개,시각 자료 활용,이 점을 상세히 설명해 드리고자 몇 가지 시각 자료를 준비했습니다,I have prepared some visuals to explain this point in detai l.
+프레젠테이션,본론 내용 전개,시각 자료 활용,이 표를 통해 20I3년 밀 소비량을 설명해 드리겠습니다.,Let me illustrate the consumption of wheat in 20I3 with this table.
+프레젠테이션,본론 내용 전개,시각 자료 활용,I/4분기의 판매 수치를 막대 그래표로 설명해 드리겠습니다,Let me show you the sales figures for the first quarter with a bar graph.
+프레젠테이션,본론 내용 전개,시각 자료 활용,이 그래프에 주목해 주시기 바랍니다,|’d like to draw your attention to this graph.
+프레젠테이션,본론 내용 전개,시각 자료 활용,이 차트에 잠깐 집중해 봅시다.,Let us focus on this chaπ for a moment.
+프레젠테이션,본론 내용 전개,시각 자료 활용,자기 자본 수익률에 주목해 봅시다.,Let us pay attention to equity returns.
+프레젠테이션,본론 내용 전개,시각 자료 활용,이 슬라이드에 주목해 봅시다,Let us concentrate on this slide.
+프레젠테이션,본론 내용 전개,시각 자료 활용,이제 이쪽을 봐 주십시오.,"Now I want you to look over here, please."
+프레젠테이션,본론 내용 전개,시각 자료 활용,가지고 계신 책자의 25쪽입니다.,I am now on page 25 of your booklet.
+프레젠테이션,본론 내용 전개,시각 자료 활용,3페이지에 있는 재무제표를 봐 주시겠습니까?,Could you please turn to page 3 for the financial statement?
+프레젠테이션,본론 내용 전개,시각 자료 활용,이 차트는 여러분이 전체적인 그림을 좀 더 잘 보는 데 도움이 될 것입니다,This chart will help you see the whole picture a little better. 
+프레젠테이션,본론 내용 전개,시각 자료 활용,여기서는 최근 판매 수치를 볼 수 있습니다,Here we can see our latest sales figures.
+프레젠테이션,본론 내용 전개,시각 자료 활용,이 그래프는 최근의 판매 경항을 영확하게 보여 주고 있습니다,Recent sales trends are clearly represented in this graph.
+프레젠테이션,본론 내용 전개,시각 자료 활용,이 그래프에서 볼 수 있듯이， 한국에서 이흔자들의 슷자가 증가하고 있습니다.,"As you can see from this graph, the number of divorcees is on the rise in Korea."
+프레젠테이션,본론 내용 전개,시각 자료 활용,이 그래표를 보시면 저희의 매출이 하락하고 있다는 것을 알 수 있습니다,"If you take a look at this graph, you will see that our sales have been decreasing."
+프레젠테이션,본론 내용 전개,시각 자료 활용,이 차트는 무료 콘만츠가 인터넷에서 인기 있다는 것을 보여 줍니다,This chart shows free contents are booming on the Net.
+프레젠테이션,본론 내용 전개,시각 자료 활용,이 표는 제가 지금까지 말씀드리고 있는 것을 보여 훌니다.,This table shows what I have been talking about.
+프레젠테이션,본론 내용 전개,시각 자료 활용,지난 분기의 판매 수치가 나타나 있는 막대 그래프를 여러분께 보여 드리고자 합니다,"I'd like to show you a bar graph, which shows you the sales figures for the last quaπer."
+프레젠테이션,본론 내용 전개,시각 자료 활용,여기 보시는 세 가지 색깔들은 다른 연령 집단을 보여 즙니다,The three colors you see here show different age groups.
+프레젠테이션,본론 내용 전개,시각 자료 활용,이 통계 자료에 따르면 고객들의 기대가 꽤 높고 복잡해졌다는 것입니다.,These statistics show that customers' expectations are fairly high and sophisticated
+프레젠테이션,본론 내용 전개,시각 자료 활용,가로축은 매출액을 나타냄니다. 세로축은 시간대를 보여 줍니다,The horizontal axis represents the sales volume. The vertical axis shows the time period .
+프레젠테이션,본론 내용 전개,시각 자료 활용,가로줄에는 국가별 I 인당 연간 석유 소비랑이， 세로줄에는 연도가 나와 있슴니다.,"In the rows, we have the yearly consumption of oil per capita for each country. In the columns, we have the diffe rent years"
+프레젠테이션,본론 내용 전개,시각 자료 활용,이윤이 I9% 치솟았습니다.,Profits soared I9%.
+프레젠테이션,본론 내용 전개,시각 자료 활용,이윤이 II% 올라 27억 달러가 되었습니다.,Profits rose II% to $2.7 billion.
+프레젠테이션,본론 내용 전개,시각 자료 활용,작년 우리 사업이 I0% 성ε했슴니다,Our business grew by I0% last year.
+프레젠테이션,본론 내용 전개,시각 자료 활용,주식이 I2달러에서 25달러로 올랐습니다,Shares have gone up from I2 dollars to 25 dollars.
+프레젠테이션,본론 내용 전개,시각 자료 활용,이윤이 20%가 올라 순이익은 3만 5천 달러입니다.,"Profitability has gone up by 20% to 35,000 dollars of net profit"
+프레젠테이션,본론 내용 전개,시각 자료 활용,연 매출이 백만 달러 감소했습니다.,There’s been a decrease in annual sales of I million dollars.
+프레젠테이션,본론 내용 전개,시각 자료 활용,이윤이 하락하고 있습니다,profits are falling.
+프레젠테이션,본론 내용 전개,시각 자료 활용,I 월에 매출이 곤두박질쳤습니다,Sales plummeted in January. 
+프레젠테이션,본론 내용 전개,시각 자료 활용,이직률이 9퍼센트에서 5 . 5퍼센트로 감소했습니다.,The turnover rate has gone down from 9 percent to 5.5 percent.
+프레젠테이션,본론 내용 전개,시각 자료 활용,저희의 시장 점유율이 23퍼센트 감소되어 현재 약 I5퍼센트입니다.,Our market share has gone down by 23 percent to about I5 percent.
+프레젠테이션,본론 내용 전개,시각 자료 활용,유가가 오르락내리락합니다,The oil price is fluctuating. .
+프레젠테이션,본론 내용 전개,시각 자료 활용,지난주에 주가가 오르락내리락했습니다.,Stock prices roller-coastered last week.
+프레젠테이션,본론 내용 전개,시각 자료 활용,이번 주 코스피 지수가 많이 오르락내리락했습니다.,The KOSPI index has had a lot of ups and downs this week.
+프레젠테이션,본론 내용 전개,시각 자료 활용,작년 이윤은 240만 파운드에 머물렀습니다.,Last year profits stood at 2.4 million pounds.
+프레젠테이션,본론 내용 전개,시각 자료 활용,저희 매출은 지난 몇 년간 변동이 없습니다.,Our profits have remained constant in the last few years.
+프레젠테이션,본론 내용 전개,시각 자료 활용,우리는 작년 매출 수준을 간신히 유지하고 있습니다,We have managed to maintain our sales at last year’s level.
+프레젠테이션,본론 내용 전개,시각 자료 활용,재정적인 어려움에도 불구하고 저희는 올해 중국으로 2억 달러를 수출했습니다,"Despite financial difficulties, we exported $200 million to China this year."
+프레젠테이션,본론 내용 전개,시각 자료 활용,비록 경쟁이 치열했지만 우리는 결국 이익을 냈습니다,"Although competition was stiff, we managed to make a profit."
+프레젠테이션,본론 내용 전개,소주제 설명 마무리,바로 이것이 우리의 새로운 사업 전략에 관한 제 첫 번째 포인트가 됨니다.,So this sums up my first point on our new business strategies.
+프레젠테이션,본론 내용 전개,소주제 설명 마무리,정리하자면 ， 이것은 지체 없이 우리의 초기 목표를 달성할 필요가 있다는 것을 의미합니다,"In sum, this means we need to pursue our initial goal without delay"
+프레젠테이션,본론 내용 전개,소주제 설명 마무리,다시 한 번 여러분이 바로 지금 변화를 만들어야 한다는 것을 강조하고자 합니다.,"Once more, I’d like to emphasize that you have to make the change now."
+프레젠테이션,본론 내용 전개,소주제 설명 마무리,자， 이 내용은 저의 다음 요지로 넘어갑니다. 그것은 바로 변화를 가져오기 위한 조치를 취하는 것에 관한 것입니다,"So this brings us to my next point, which is about taking action to make changes."
+프레젠테이션,본론 내용 전개,소주제 설명 마무리,즉， 지금까지 제가 말씀드린 내용은 나노 기술의 효과에 관한 것입니다.,So what I have been telling you so far concerns the effectiveness of nanotechnology.
+프레젠테이션,본론 내용 전개,소주제 설명 마무리,제가 말씀드리는 것은 바로 기후 변화는 우리의 일상생활에 영향을 미친다는 것입니다,What I'm saying is climate change is affecting our daily lives.
+프레젠테이션,프레젠테이션결론,마무리단계 알리기,이제 발표의 마지막 부분이 되겠습니다.,That brings me to the end of my presentation.
+프레젠테이션,프레젠테이션결론,마무리단계 알리기,이제 발표의 마지막 부분이 되겠습니다.,That brings us to the end of my presentation.
+프레젠테이션,프레젠테이션결론,마무리단계 알리기,지금까지 오늘 제가 말씀드리고 싶은 부분을 전달해 드렸습니다.,That covers alll wanted to say today.
+프레젠테이션,프레젠테이션결론,마무리단계 알리기,자기요법에 관한 오늘 발표의 요점을 정리해 드리면서 마무리 짓겠습니다,Let me wrap up the main points of today’s talk on magnetic therapy.
+프레젠테이션,프레젠테이션결론,마무리단계 알리기,끝내기 전에 말씀드리고자 하는 점은 변화는 지금， 바로 지금 여러분이 만들어 내야한다는것입니다,"Before I finish, let me just say that the change should be made now, right now by you ."
+프레젠테이션,프레젠테이션결론,중요 내용의 요약,제 결론의 핵심은 다음과 같습니다.,The key points of my conclusion are as follows.
+프레젠테이션,프레젠테이션결론,중요 내용의 요약,다시 한 번 요약해 드러면， 요점은 다음과 같슴니다.,"So to recapitulate, the main p이 nts are as follows."
+프레젠테이션,프레젠테이션결론,중요 내용의 요약,핵심 내용을 다시 한 번 정리해 보도록 하겠습니다,Let me run over the key points again.
+프레젠테이션,프레젠테이션결론,중요 내용의 요약,요점을 다시 한 번 요약해 드리죠.,Let me sum up the main points again.
+프레젠테이션,프레젠테이션결론,중요 내용의 요약,요약하자면， 제가 강조해 드리고자 하는 점은 그 변화를 지금만들어야 한다는 것입니다,"To wrap up, I would like to emphasize that we need to make the change now."
+프레젠테이션,프레젠테이션결론,중요 내용의 요약,요약하자면， 우리 생산을 증진시키기 위해 필요한 것은 바로 새로운 IBT50 기술입니다,"To sum up, the new I8T50 technology is what we need to boost our production. "
+프레젠테이션,프레젠테이션결론,중요 내용의 요약,요약하자면， 우리 경영 스타일에는 소프트 파워가 사용될 필요가 있습니다.,"Briefly, we need soft power to be used in our management style."
+프레젠테이션,프레젠테이션결론,중요 내용의 요약,간단하게 핵심 내용을 다시 요약해 드리겠습니다.,I will briefly summarize the key points again.
+프레젠테이션,프레젠테이션결론,중요 내용의 요약,이 새로운 기술로 우리의 생산을 증진시킬 수 있다는 것을 명심해 주시기 바랍니다,Please bear in mind that with this new technologι we will be able to increase our production capacity.
+프레젠테이션,프레젠테이션결론,중요 내용의 요약,간단히 말씀드리자연， 저희는 곧 새로운 투자 선택을 해야 합니다,"In short, we need to make new investment choices soon."
+프레젠테이션,프레젠테이션결론,중요 내용의 요약,지금까지 제가 설명해 드린 것을 다시 요약해 드리겠습니다,Let me give you a recap of what I have explained throughout
+프레젠테이션,프레젠테이션결론,중요 내용의 요약,새로운 정부 정책에 관한 제 요지를 요약해 드리겠습니다,Let me sum up my points regarding the new government policy.
+프레젠테이션,프레젠테이션결론,중요 내용의 요약,주요 안건을 간단히 요약하겠습니다.,I will briefly summarize the main issues.
+프레젠테이션,프레젠테이션결론,중요 내용의 요약,요점들을 한 번 더 짚어 보도록 하겠습니다,I would like to go over the main points one more time.
+프레젠테이션,프레젠테이션결론,중요 내용의 요약,오늘 다루었던 내용을 다시 보겠습니다,Let me run over what I covered today.
+프레젠테이션,프레젠테이션결론,강조및제안,마지막으로 가장 중요한 점은， 저는 우리의 미래가 밝다고 생각합니다.,"Last but not least, I believe our future is bright."
+프레젠테이션,프레젠테이션결론,강조및제안,마치기 전에， 이런 아동학대 피해자들을 도울 수 있는 방법을 다시 한 번 강조해 드리고자 합니다,"Before I finish, let me stress again how you can help those victims of child abuse."
+프레젠테이션,프레젠테이션결론,강조및제안,우리의 안보 수준을 길화해야 한다는 것을 제요닝}겠습니다,I would suggest that we should beef up our security level. 
+프레젠테이션,프레젠테이션결론,강조및제안,더 많은 돈이 연구개발에 투자되어야 한다고 제~하고 실습니다.,I'd like to propose that more money should be invested in R&D.
+프레젠테이션,프레젠테이션결론,강조및제안,청중 분들이 인샘에서 성공하고 싶으시다면 제 발표에서 설명해 드린 단계들을 기억하셔야 합니다,What I need this audience to remember if they want to succeed in life is the steps I described in my talk.
+프레젠테이션,프레젠테이션결론,강조및제안,끝으로 당부드리고 싶은 말씀은 우리 회사는 IT산업 성장에 공헌하기 위해 최선을 다한다는 것입니다,My parting wish for you is that our company does its best to contri t?ute to the growth of the IT industry.
+프레젠테이션,프레젠테이션결론,강조및제안,제가 말씀드린 의견의 전반적인 의미를 명심해 주시기 바랍니다,Please keep the overall implications of my points in mind. 
+프레젠테이션,프레젠테이션결론,강조및제안,이 프레젠테이선은 제 개인적인 견해를 바탕으로 한 것임을 잊지 마시기 바랍니다.,Please bear in mind that this has been based on a personal view of mine.
+프레젠테이션,프레젠테이션결론,강조및제안,제가 오늘 여러분께 말씀드린 내용을 실생활에서 꼭 실천해야 한다는 것을 기억해 주시기바랍니다,Please keep in mind that you should practice in real life what I have told you about today
+프레젠테이션,프레젠테이션결론,인용구 일화 등의 언급,제 프레젠테이션을 요약해 줄 이야기로 마칠까 합니다,Let me close now with a story that sums up my presentatlon.
+프레젠테이션,프레젠테이션결론,인용구 일화 등의 언급,제가 말씀드린 내용을 아주 잘 요약한 인용구로 마칠까 합니다,Let me close now with a quote that pretty much summarizes what I have been talking about.
+프레젠테이션,프레젠테이션결론,인용구 일화 등의 언급,이 업종메 증사하는 우리 모두에게 적용되는 이야기로 마치겠습니다.,I would conclude with a story that applies to all of us in this industry.
+프레젠테이션,프레젠테이션결론,인용구 일화 등의 언급,우리 회사를 처음 설립하셨던 고(故) 정 회장님에 관한 일화를 말씀드리며 마칠까 합니다,Let me wrap up with an anecdote about the late Chairman Chung who founded our company.
+프레젠테이션,프레젠테이션결론,프레젠테이션 종료 인사,이것으로 제 프레젠테이션을 마치겠습니다.,That ends my talk.
+프레젠테이션,프레젠테이션결론,프레젠테이션 종료 인사,이것으로 제 프레젠테이션을 마치겠습니다.,So that’s all I have to say.
+프레젠테이션,프레젠테이션결론,프레젠테이션 종료 인사,이것으로 제 프레젠테이션을 마치겠습니다.,That covers my presentation.
+프레젠테이션,프레젠테이션결론,프레젠테이션 종료 인사,이것으로 제 프레젠테이션을 마치겠습니다.,That completes my presentation.
+프레젠테이션,프레젠테이션결론,프레젠테이션 종료 인사,이것으로 제 프레젠테이션을 마치겠습니다.,That brings us to the end of my presentation.
+프레젠테이션,프레젠테이션결론,프레젠테이션 종료 인사,집중해 주셔서 감사합니다.,Thank you for your attention.
+프레젠테이션,프레젠테이션결론,프레젠테이션 종료 인사,시간 내 주셔서 감사합니다,Thank you for your time.
+프레젠테이션,프레젠테이션결론,프레젠테이션 종료 인사,바쁘신 와중에 시간 내 주셔서 감사합니다.,Thank you for taking the time out of your busy schedule.
+프레젠테이션,프레젠테이션결론,프레젠테이션 종료 인사,와주셔서감사합니다,Thank you for coming.
+프레젠테이션,질의응답,질문받기,질문을받도록하죠,Let’s throw it open to questions.
+프레젠테이션,질의응답,질문받기,질문있으세요?,Any questions?
+프레젠테이션,질의응답,질문받기,어떠한 질문이든 기꺼이 답변해 드리도록 하겠슴니다,I'd be glad to try and answer any questions.
+프레젠테이션,질의응답,질문받기,어떤 질문이든 기꺼이 남아서 답변해 드리겠습니다,I'd be happy to stay and answer any questions you have.
+프레젠테이션,질의응답,질문받기,의문사항이 있으시면 질문해 주세요.,"If there is anything you are not clear about, please ask"
+프레젠테이션,질의응답,질문받기,의문사항이 있으시면 질문해 주세요.,"If there is anything you are not clear about, please feel free to ask."
+프레젠테이션,질의응답,질문받기,의문사항이 있으시면 이메일로 연락 주세요.,"If there is anything you are not clear about, please contact me via email."
+프레젠테이션,질의응답,질문받기,제가 방금 언급한 내용에 대해 질문 있으십니까?,Are there any inquiries about the points that I just mentioned? ’
+프레젠테이션,질의응답,질문받기,이제 여러분의 질문을 받도록 하겠습니다.,I would like to open the floor for any questions that you may have.
+프레젠테이션,질의응답,질문받기,이제 질문을 받겠습니다.,Now I open up the floor for questions
+프레젠테이션,질의응답,질문받기,질문을 위해 발언권을 부여해 드리죠.,Let me open up the floor for any questions.
+프레젠테이션,질의응답,질문받기,한 번에 한 분씩만 질문해 주세요.,Please one at a time.
+프레젠테이션,질의응답,질문받기,한 번에 하나씩만 질문을 받겠습니다.,I will take one question at a time.
+프레젠테이션,질의응답,질문받기,이 분 질문을 먼저 받고 다음에 그쪽 분 질문을 받도록 하겠습니다,Why don’t you go ahead with your question and then I’ II take yours next?
+프레젠테이션,질의응답,질문확인,유기적 경영’이라는 것이 무슨 말씀이신지요?,"What do you mean by “ organic management""?"
+프레젠테이션,질의응답,질문확인,고등교육에서는 이 교수법이 효과가 없을 것이라는 뜻입니까?,00 you mean this teaching method might not work in higher education?
+프레젠테이션,질의응답,질문확인,제가 제대로 이해한 것이라면， 기술이 우리를 보다 인간적으로만들어 준다는 말씀이시죠?,"If I understand you correctly, you are saying technology makes us more human?"
+프레젠테이션,질의응답,질문확인,죄송하지만， 질문을 이해하지 못했습니다. 다시 한 번 말씀해 주시겠습니까?,"Sorry, I didn't catch that. Could you go over that again?"
+프레젠테이션,질의응답,질문확인,죄송하지만， 질문을 이해하지 못했습니다. 다시 한 번 말씀해 주시겠습니까?,"Sorry, I didn’t catch that. Could you repeat it, please?"
+프레젠테이션,질의응답,질문확인,제가 제대로 이해했는지 확실치는 않지만， 저희의 네트워크 시스댐이 전부 업그레이드되어야 한다는 것입니까?,I'm not sure whether I understand you correctlι but are you saying that all our network systems should be upgraded?
+프레젠테이션,질의응답,질문확인,질문을 좀 더 구체적으로 해 주시겠습니까?,Could you be a little more specific with your questions?
+프레젠테이션,질의응답,질문확인,질문하시고자 하는 것이 정확히 무엇이죠?,What exactly is it that you are asking?
+프레젠테이션,질의응답,질문확인,말씀을 이해하지 못했습니다. 정혹념| 무슨 뜻입니까?,I don’t quite follow you. What exactly do you mean?
+프레젠테이션,질의응답,질문확인,무슨 말씀을 하시는지 잘 모르겠네요. 다시 한 번 말씀해 주시겠습니까?,|’m not sure what you're getting at. Could you say that again?
+프레젠테이션,질의응답,질문확인,미안합니다만 집중하지 못했습니다. 무슨 말씀이셨습니까?,|’m sorry. I was not paying attention. What was that again?
+프레젠테이션,질의응답,질문확인,더 천천히 말씀해 주시겠습니까?,Could you speak more slowly?
+프레젠테이션,질의응답,질문확인,더 천천히 말씀해 주시겠습니까?,"Could you speak a little more slowly, please?"
+프레젠테이션,질의응답,질문확인,죄송합니다. 조금만 더 천천히 다시 한 번 말씀해 주시겠습니까?,|’m sorry. Could you repeat that a bit more slowly?
+프레젠테이션,질의응답,질문확인,죄송합니다. 잘 들리지가 않네요. 조금만 더 크게 말씀해 주시겠어요?,"I'm sorry. I couldn't hear you clearly. Could you speak a little louder, please?"
+프레젠테이션,질의응답,좋은 질문에 대한 대답,아주좋은질문이네요,That's a very good question.
+프레젠테이션,질의응답,좋은 질문에 대한 대답,매우 중요한 질문입니다.,That’s a very important question.
+프레젠테이션,질의응답,좋은 질문에 대한 대답,제가 추가 예시를 드랄 수 있기 때문에 그 질문은 좋은 질문입니다.,That question is a good one because it allows me to give some extra examples.
+프레젠테이션,질의응답,좋은 질문에 대한 대답,그 점을 제기해 주셔서 기쁨니다.,I'm glad you raised that point.
+프레젠테이션,질의응답,좋은 질문에 대한 대답,흥미로운질문이군요,That’s an interesting question
+프레젠테이션,질의응답,답변하기 힘든 질문에 대한 대답,지금은 그 정보에 대해 밝힐 수 없습니다,I can’t reveal that information at this time.
+프레젠테이션,질의응답,답변하기 힘든 질문에 대한 대답,죄송합니다만， 그건 기밀 정보입니다.,"|’m sorry, but that is confidential information ."
+프레젠테이션,질의응답,답변하기 힘든 질문에 대한 대답,그건 제 분야가 아닌 것 같군요.,|’m afraid that’s not my field .
+프레젠테이션,질의응답,답변하기 힘든 질문에 대한 대답,그 질문에 대한 명확한 답이 지금은 없습니다만， 추후에 이메일로 논의해 보겠습니다.,"I do not have a definite answer to that question now, but"
+프레젠테이션,질의응답,답변하기 힘든 질문에 대한 대답,그 점은 나중에 얘기해도 좋을 것 같군요.,I'd be happy to discuss this further via emai l.
+프레젠테이션,질의응답,답변하기 힘든 질문에 대한 대답,여러분 중 이 질문에 대해 의견을 가지고 계신 분이 있습니까?,Perhaps we could deal with that later.
+프레젠테이션,질의응답,답변하기 힘든 질문에 대한 대답,김 선생님이 그 질문에 답해 주실 거라고 확신합니다.,Does anyone have any thoughts on this question?
+프레젠테이션,질의응답,답변에 대한 이해 및 만족도 확인,영확한 답이 되었는지요?,I'm sure Mr. Kim can answer that question.
+프레젠테이션,질의응답,답변에 대한 이해 및 만족도 확인,이제명확합니까?,Have I made that clear?
+프레젠테이션,질의응답,답변에 대한 이해 및 만족도 확인,제 답변이 만즉스러우신가요?,Is that clear now?
+프레젠테이션,질의응답,답변에 대한 이해 및 만족도 확인,질문에답이되었나요?,Does my answer satisfy you?
+프레젠테이션,질의응답,답변에 대한 이해 및 만족도 확인,질문에 답이 되었길 바랍니다.,Does that answer your question?
+프레젠테이션,질의응답,질의응답 종료,다른 질문이 없으시다면 여기서 마무리 짓죠.,I hope I've answered your question.
+프레젠테이션,질의응답,질의응답 종료,더 이상 질문이 없으시다면 여기까지 하는 것이 좋겠습니다.,"If there are no other questions, why don’t we wrap it up here?"
+프레젠테이션,질의응답,질의응답 종료,더 이상 질문이 없으시면 여기서 마치죠.,"If there are no further questions, perhaps we should stop here."
+프레젠테이션,질의응답,질의응답 종료,,"If there are no more questions, let us finish up here."

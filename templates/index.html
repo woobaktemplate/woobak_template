@@ -1,0 +1,117 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<meta name="description" content="">
+	<meta name="author" content="">
+	<link rel="icon" href="images/favicon.ico">
+	<title>Woobak Templates</title>
+  <!-- Bootstrap core CSS -->
+  <link href="{% static 'dist/css/bootstrap.min.css' %}" rel="stylesheet">
+  <!--Fonts-->
+  <!-- <link href="https://fonts.googleapis.com/css?family=Montserrat:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet"> -->
+  <link href="http://fonts.googleapis.com/earlyaccess/jejugothic.css" rel="stylesheet">
+  <!-- Icons -->
+  <link href="{% static 'css/font-awesome.css' %}" rel="stylesheet">
+  <!-- Custom styles for this template -->
+  <link href="{% static 'css/style.css' %}" rel="stylesheet">
+	<link href="{% static 'css/hover.css' %}" rel="stylesheet">
+	<link href="{% static 'css/index.css' %}" rel="stylesheet">
+</head>
+
+<body>
+	<div class="container-fluid" id="wrapper">
+		<div class="row">
+			<nav class="sidebar col-xs-12 col-sm-4 col-lg-3 col-xl-2 bg-faded sidebar-style-1">
+				<h1 class="site-title"><a href="{% url 'index' %}"><em class="fa fa-tint"></em> 우박</a></h1>
+
+				<a href="#menu-toggle" class="btn btn-default" id="menu-toggle"><em class="fa fa-bars"></em></a>
+
+				<ul class="nav nav-pills flex-column sidebar-nav">
+					<!-- <li class="nav-item"><a class="nav-link active" href="index.html"><em class="fa fa-dashboard"></em> 홈 <span class="sr-only">(current)</span></a></li> -->
+          <li class="nav-item"><a class="nav-link" href="index.html"><em class="fa fa-home"></em> 홈</a></li>
+          <li class="nav-item"><a class="nav-link" href="{% url 'about' %}"><em class="fa fa-question-circle"></em> 소개</a></li>
+					<li class="nav-item"><a class="nav-link" href="charts.html"><em class="fa fa-book"></em> 템플렛</a></li>
+					<li class="nav-item"><a class="nav-link" href="elements.html"><em class="fa fa-sign-in"></em> 로그인</a></li>
+					<a href="#" class="logout-button"><em class="fa fa-power-off"></em> 로그아웃</a></nav>
+        </ul>
+
+			<main id="main" class="col-xs-12 col-sm-8 offset-sm-4 col-lg-9 offset-lg-3 col-xl-10 offset-xl-2 pt-3 pl-4">
+				<section class="index-header">
+					<h1>English Templates</h1>
+				</section>
+				<section class="row step-one-section">
+					<div class="col-12">
+						<h3 class="mt-4 mb-4">
+							<strong>STEP 1:</strong> 사용하고 싶은 템플렛을 골라주세요
+						</h3>
+					</div>
+
+					<div class="col-lg-6 mb-4 hvr-float">
+						<div class="card text-center">
+							<div class="card-header"></div>
+
+							<div class="card-block">
+								<h4 class="card-title">Business E-mail</h4>
+
+								<p class="card-text">일상 생활에 필요한 이메일 템플렛을 둘러보세요.</p>
+								<a id="start-email" href="#" class="btn btn-primary">START</a>
+							</div>
+						</div>
+					</div>
+
+					<div class="col-lg-6 mb-4 hvr-float">
+						<div class="card text-center">
+							<div class="card-header">
+								<!-- <ul class="nav nav-pills card-header-pills">
+									<li class="nav-item"><a class="nav-link active" href="#">Active</a></li>
+									<li class="nav-item"><a class="nav-link" href="#">Link</a></li>
+									<li class="nav-item"><a class="nav-link disabled" href="#">Disabled</a></li>
+								</ul> -->
+							</div>
+
+							<div class="card-block">
+								<h4 class="card-title">Presentation</h4>
+
+								<p class="card-text">발표에 필요한 영어 스크립트를 찾아보세요.</p>
+								<a id="start-presentation" href="#" class="btn btn-primary">START</a>
+							</div>
+						</div>
+					</div>
+				</section>
+			</main>
+		</div>
+	</div>
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="{% static 'js/jquery-3.2.1.min.js' %}"></script>
+    <script src="{% static 'dist/js/bootstrap.min.js' %}"></script>
+
+    <script src="{% static 'js/chart.min.js' %}"></script>
+    <script src="{% static 'js/chart-data.js' %}"></script>
+    <script src="{% static 'js/easypiechart.js' %}"></script>
+    <script src="{% static 'js/easypiechart-data.js' %}"></script>
+    <script src="{% static 'js/bootstrap-datepicker.js' %}"></script>
+    <script src="{% static 'js/custom.js' %}"></script>
+		<script src="{% static 'js/index.js' %}"></script>
+    <script>
+	    window.onload = function () {
+	var chart1 = document.getElementById("line-chart").getContext("2d");
+	window.myLine = new Chart(chart1).Line(lineChartData, {
+	responsive: true,
+	scaleLineColor: "rgba(0,0,0,.2)",
+	scaleGridLineColor: "rgba(0,0,0,.05)",
+	scaleFontColor: "#c5c7cc"
+	});
+};
+	</script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
+
+	  </body>
+</html>
