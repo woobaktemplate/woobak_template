@@ -31,7 +31,7 @@ su -c "psql -c \"GRANT ALL PRIVILEGES ON DATABASE woobak TO woobak;\"" postgres
 
 # PostgreSQL localhost setting
 cd /etc/postgresql/9.5/main
-vim +":%s/#listen_addresses = 'localhost'/#listen_addresses = '*'/g | wq" postgresql.conf
+vim +":%s/#listen_addresses = 'localhost'/listen_addresses = '*'/g | wq" postgresql.conf
 
 cd /etc/postgresql/9.5/main
 vim +"%s/127.0.0.1\/32/0.0.0.0\/0   /g | %s/::1\/128/::\/0/g | wq" pg_hba.conf
@@ -42,6 +42,7 @@ echo enabling PostgreSQL
 sudo systemctl enable postgresql.service
 echo restarting PostgreSQL
 sudo systemctl restart postgresql.service
+# /etc/init.d/postgresql restart
 echo done!
 
 # STEP 5: creating python virtual environment for project specific management

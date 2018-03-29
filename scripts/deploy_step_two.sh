@@ -21,7 +21,6 @@ sudo systemctl restart nginx
 sudo systemctl start uwsgi
 
 # STEP 4: changing firewall options
-sudo ufw delete allow 8080
 sudo ufw allow 'Nginx Full'
 
 # STEP 5: last step configuring uwsgi and nginx
