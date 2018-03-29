@@ -54,7 +54,4 @@ echo "export VIRTUALENVWRAPPER_PYTHON=/usr/bin/python3" >> ~/.bashrc
 echo "export WORKON_HOME=/home/woobak/venv" >> ~/.bashrc
 echo "source /usr/local/bin/virtualenvwrapper.sh" >> ~/.bashrc
 
-# move initial pulled data under user directory
-mv /home/woobak_template /home/woobak/woobak
-
 reboot

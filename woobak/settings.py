@@ -53,12 +53,26 @@ TEMPLATES = [
 
 WSGI_APPLICATION = 'woobak.wsgi.application'
 
-DATABASES = {
-    'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
+DB_IN_USE = 'postgres'
+
+if DB_IN_USE == 'postgres':
+    DATABASES = {
+        'default': {
+            'ENGINE': 'django.db.backends.postgresql_psycopg2',
+            'NAME': 'woobak',
+            'USER': 'woobak',
+            'PASSWORD': 'makeitpopweWOOBAK!1',
+            'HOST': '45.32.9.85',
+            'PORT': '',
+        }
     }
-}
+else:
+    DATABASES = {
+        'default': {
+            'ENGINE': 'django.db.backends.sqlite3',
+            'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
+        }
+    }
 
 AUTH_PASSWORD_VALIDATORS = [
     {
