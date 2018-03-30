@@ -7,5 +7,11 @@ class Template(models.Model):
     template = models.TextField()
     translation = models.TextField()
 
+    done = models.BooleanField(default=0)
+
     def __str__(self):
-        return '{}'.format(self.category)
+        if self.done == 0:
+            status = 'Not Done'
+        elif self.done == 1:
+            status = 'Done'
+        return '{} - {}'.format(self.category, status)
