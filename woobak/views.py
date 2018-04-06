@@ -26,3 +26,8 @@ class IndexView(View):
 class AboutView(View):
     def get(self, request, *args, **kwargs):
         return render(request, 'about.html', {})
+
+
+class AdminEditView(View):
+    def get(self, request, *args, **kwargs):
+        return render(request, 'admin_edit.html', {})

@@ -23,6 +23,7 @@ INSTALLED_APPS = [
     'examples',
     'sentences',
     'restapi',
+    'voca',
 ]
 
 MIDDLEWARE = [
@@ -55,7 +56,7 @@ TEMPLATES = [
 
 WSGI_APPLICATION = 'woobak.wsgi.application'
 
-DB_IN_USE = 'postgres'
+DB_IN_USE = ''
 
 if DB_IN_USE == 'postgres':
     DATABASES = {
