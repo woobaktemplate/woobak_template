@@ -20,6 +20,8 @@ class Template(models.Model):
                              null=True)
     template = models.TextField(blank=True, null=True)
     translation = models.TextField(blank=True, null=True)
+    created = models.DateTimeField(auto_now_add=True)
+    updated = models.DateTimeField(auto_now=True)
     done = models.BooleanField(default=0)
 
     def __str__(self):
@@ -37,12 +39,20 @@ class TemplateState(models.Model):
     source = models.CharField(max_length=100,
                               blank=True,
                               null=True)
-    saved = models.BooleanField(default=0)
+    saved = models.BooleanField(default=1)
     checked = models.BooleanField(default=0)
     translated = models.BooleanField(default=0)
 
     def __str__(self):
-        return '{} - {}'.format(self.template.category, self.template.status)
+        if self.template.done == 0:
+            status = 'Not Done'
+        elif self.template.done == 1:
+            status = 'Done'
+        return '{} - {}'.format(self.template.category, status)
+
+    @property
+    def topic(self):
+        return self.template.topic
 
 
 # right before Template save
@@ -53,4 +63,4 @@ def create_template_state(sender, instance, created, **kwargs):
 
 @receiver(post_save, sender=Template)
 def save_template_state(sender, instance, **kwargs):
-    instance.profile.save()
+    instance.state.save()

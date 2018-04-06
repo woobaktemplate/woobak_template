@@ -12,7 +12,6 @@
     <!-- Font Awesome CSS  -->
     <link rel="stylesheet" href="{% static 'css/font-awesome.min.css' %}">
     <!-- Custom CSS -->
-    <link rel="stylesheet" href="{% static 'css/balloon.css' %}">
     <link rel="stylesheet" href="{% static 'css/edit-style.css' %}">
   </head>
 
@@ -90,67 +89,89 @@
 
       <!-- 템플릿 부분 -->
       <h2 class="ui dividing header" style="margin-top: 5%;">1. 템플릿</h2>
+      <div class="ui success message" style="margin-top: -5%;">
+        <div class="header">
+          템플릿 입력하기
+        </div>
+        <p>템플릿의 카테고리 (이메일, 프레젠테이션 등)을 입력하신 후 그 템플릿의 주제와 내용만 저장하여 주세요.</p>
+      </div>
       <div class="ui stackable grid">
 
-        <div class="four wide column">
+        <div class="four wide column comp-view">
           <div class="ui vertical menu">
-            <a class="active teal item">
+            <a id="tmp-save-btn" class="active teal item">
               템플릿 입력
-              <div class="ui teal left pointing label">1</div>
             </a>
-            <a class="item">
+            <a id="tmp-check-btn" class="item">
               영어 문장 수정
-              <div class="ui label">51</div>
+              {% if tmp_saved != 0 %}
+                <div id="tmp_saved_menu" class="ui label">{{ tmp_saved }}</div>
+              {% endif %}
             </a>
-            <a class="item">
+            <a id="tmp-translate-btn" class="item">
               템플릿 번역
-              <div class="ui label">1</div>
+              {% if tmp_checked != 0 %}
+                <div id="tmp_checked_menu" class="ui label">{{ tmp_checked }}</div>
+              {% endif %}
             </a>
           </div>
         </div>
 
-        <div class="ten wide column">
+        <div id="tmp-action-section" class="ten wide column">
           <div class="ui form">
-            <div class="field">
+            <div class="ui sub header">분류</div>
+            <select id="tmp-type-select" name="skills" class="ui fluid search dropdown">
+              <option value="이메일">이메일</option>
+              <option value="프레젠테이션">프레젠테이션</option>
+            </select>
+            <div class="field" style="margin-top: 2%;">
               <label>카테고리</label>
-              <textarea rows="1"></textarea>
+              <textarea id="category-input" rows="1"></textarea>
+            </div>
+            <div class="field">
+              <label>주제</label>
+              <textarea id="topic-input" rows="1"></textarea>
             </div>
             <div class="field">
               <label>제목</label>
-              <textarea rows="1"></textarea>
+              <textarea id="title-input" rows="1"></textarea>
             </div>
             <div class="field">
               <label>템플릿</label>
-              <textarea></textarea>
+              <textarea id="template-input"></textarea>
             </div>
           </div>
-          <button class="fluid teal ui button" style="margin-top: 1rem;">저장하기</button>
+          <button id="tmp-save-api-btn" class="fluid teal ui button" style="margin-top: 1rem;">저장하기</button>
         </div>
 
         <div class="two wide column">
           <div class="ui tiny horizontal statistics">
             <div class="statistic">
-              <div class="value">
-                2,204
+              <div id="tmp-total-num-stats" class="value">
+                {{ tmp_total_num }}
               </div>
-              <div class="label">
-                Views
-              </div>
-            </div>
-            <div class="statistic">
-              <div class="value">
-                3,322
-              </div>
-              <div class="label">
-                Downloads
+              <div id="tmp-tmps" class="label">
+                {% if tmp_total_num <= 1 %}
+                  Template
+                {% else %}
+                  Templates
+                {% endif %}
               </div>
             </div>
             <div class="statistic">
-              <div class="value">
-                22
+              <div id="tmp-in-progress-num-stats" class="value">
+                {{ tmp_in_progress_num }}
               </div>
               <div class="label">
-                Tasks
+                In Progress
+              </div>
+            </div>
+            <div class="statistic">
+              <div id="tmp-done-num-stats" class="value">
+                {{ tmp_done_num }}
+              </div>
+              <div class="label">
+                Done
               </div>
             </div>
           </div>
@@ -299,6 +320,7 @@
     <!-- jQuery + Semantic UI JS -->
     <script type="text/javascript" src="{% static 'js/jquery-3.2.1.min.js' %}"></script>
     <script type="text/javascript" src="{% static 'vendor/semantic-ui/semantic.min.js' %}"></script>
+    <script type="text/javascript" src="{% static 'js/data-manipulation/admin.js' %}"></script>
     <script type="text/javascript">
     $('.ui.accordion').accordion();
     </script>

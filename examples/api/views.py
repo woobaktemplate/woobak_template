@@ -2,7 +2,11 @@ from rest_framework import generics
 from rest_framework.filters import SearchFilter, OrderingFilter
 
 from examples.models import Template, TemplateState
-from examples.api.serializers import TemplateSerializer, TemplateStateSerializer
+from examples.api.serializers import (
+    TemplateSerializer,
+    TemplateStateSerializer,
+    TemplateAdminSerializer,
+)
 
 from utils.paginations import StandardResultPagination
 
@@ -28,7 +32,7 @@ class TemplateStateAPIView(generics.ListCreateAPIView):
     filter_backends = [SearchFilter, OrderingFilter]
 
     def get_queryset(self, *args, **kwargs):
-        queryset = Template.objects.all().order_by('id')
+        queryset = TemplateState.objects.all().order_by('id')
         saved = self.request.GET.get('saved')
         checked = self.request.GET.get('checked')
         translated = self.request.GET.get('translated')
@@ -39,3 +43,8 @@ class TemplateStateAPIView(generics.ListCreateAPIView):
         elif translated:
             queryset = queryset.filter(translated=translated)
         return queryset
+
+
+class TemplateAdminAPIView(generics.RetrieveAPIView):
+    queryset = TemplateState.objects.all()
+    serializer_class = TemplateAdminSerializer

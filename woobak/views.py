@@ -12,6 +12,11 @@ from django.views.generic import (
     UpdateView
 )
 
+from examples.models import (
+    Template,
+    TemplateState,
+)
+
 
 class HomeView(View):
     def get(self, request, *args, **kwargs):
@@ -30,4 +35,14 @@ class AboutView(View):
 
 class AdminEditView(View):
     def get(self, request, *args, **kwargs):
-        return render(request, 'admin_edit.html', {})
+        tmp_total_num = TemplateState.objects.all().count()
+        tmp_done_num = Template.objects.filter(done=True).count()
+        context = {
+            'tmp_saved': TemplateState.objects.filter(saved=True).count(),
+            'tmp_checked': TemplateState.objects.filter(checked=True).count(),
+            'tmp_total_num': tmp_total_num,
+            'tmp_done_num': tmp_done_num,
+            'tmp_in_progress_num': tmp_total_num - tmp_done_num,
+
+        }
+        return render(request, 'admin_edit.html', context)
