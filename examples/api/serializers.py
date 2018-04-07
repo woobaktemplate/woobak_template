@@ -6,7 +6,8 @@ from examples.models import Template, TemplateState
 class TemplateSerializer(serializers.ModelSerializer):
     class Meta:
         model = Template
-        fields = ('template_type',
+        fields = ('id',
+                  'template_type',
                   'category',
                   'topic',
                   'title',

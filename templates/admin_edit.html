@@ -17,6 +17,8 @@
 
   <body>
 
+    <div id="tmp-modal" class="ui modal"></div>
+
     <div class="ui container">
       <h2 class="ui center aligned icon header">
         <i class="circular pencil alternate icon"></i>
@@ -89,7 +91,7 @@
 
       <!-- 템플릿 부분 -->
       <h2 class="ui dividing header" style="margin-top: 5%;">1. 템플릿</h2>
-      <div class="ui success message" style="margin-top: -5%;">
+      <div id="tmp-edit-msg" class="ui success message" style="margin-top: -5%;">
         <div class="header">
           템플릿 입력하기
         </div>
@@ -104,15 +106,11 @@
             </a>
             <a id="tmp-check-btn" class="item">
               영어 문장 수정
-              {% if tmp_saved != 0 %}
-                <div id="tmp_saved_menu" class="ui label">{{ tmp_saved }}</div>
-              {% endif %}
+              <div id="tmp_saved_menu" class="ui label">{{ tmp_saved }}</div>
             </a>
             <a id="tmp-translate-btn" class="item">
               템플릿 번역
-              {% if tmp_checked != 0 %}
-                <div id="tmp_checked_menu" class="ui label">{{ tmp_checked }}</div>
-              {% endif %}
+              <div id="tmp_checked_menu" class="ui label">{{ tmp_checked }}</div>
             </a>
           </div>
         </div>
@@ -249,7 +247,7 @@
 
       <!-- 문장 부분 -->
       <h2 class="ui dividing header">2. 문장</h2>
-      <div class="ui comments">
+      <!-- <div class="ui comments">
         <div class="comment">
           <a class="avatar">
             <img src="/images/avatar/small/joe.jpg">
@@ -310,7 +308,7 @@
             </div>
           </div>
         </div>
-      </div>
+      </div> -->
 
       <!-- 단어 부분 -->
       <h2 class="ui dividing header">3. 단어</h2>
