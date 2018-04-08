@@ -50,10 +50,6 @@ class TemplateState(models.Model):
             status = 'Done'
         return '{} - {}'.format(self.template.category, status)
 
-    @property
-    def topic(self):
-        return self.template.topic
-
 
 # right before Template save
 @receiver(post_save, sender=Template)

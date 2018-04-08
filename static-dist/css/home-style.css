@@ -5,7 +5,7 @@
     Author URL: https://bootstrapmade.com
 */
 /* ==== Google font ==== */
-@import url(https://fonts.googleapis.com/css?family=Roboto:400,300,700,900);
+@import url('https://fonts.googleapis.com/css?family=Roboto:400,300,700,900');
 @import url('https://fonts.googleapis.com/css?family=Ek+Mukta:400,600,700');
 *{
 	padding:0;
@@ -430,11 +430,11 @@ hr.bold {
 --- Intro
 ============================ */
 
-.hero { background: url(/static/img/hero-bg.jpg) no-repeat center center; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; padding: 200px 0 200px 0; height: auto; }
-.hero h1 { font-size: 40px; letter-spacing: 12px; margin: 40px 0 10px; font-weight: 900; color: #fff;}
+.hero { background: url(/static/images/woobak-home-bg.jpg) no-repeat center center; -webkit-background-size: cover; -moz-background-size: cover; -o-background-size: cover; background-size: cover; padding: 200px 0 200px 0; height: auto; }
+.hero h1 { font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif; font-size: 40px; letter-spacing: 12px; margin: 40px 0 10px; font-weight: 900;}
 .hero h1 span { color: #a1a9b0; display: inline-block; }
-.hero p { font-size: 24px; font-weight: 400; color: #fefefe; }
-.learn-more-btn { background: rgba(61, 201, 179, 1); padding: 20px 40px; border-radius: 5px; -moz-border-radius: 5px; -webkit-border-radius: 5px; -o-border-radius: 5px; color: #fff; text-transform: uppercase; letter-spacing: 1px; display: inline-block; -webkit-box-shadow: 0px 3px 0px 0px #309383; -moz-box-shadow: 0px 3px 0px 0px #309383; box-shadow: 0px 3px 0px 0px #309383; margin: 60px 0 0; font-weight: bold; }
+.hero p { font-family: "Jeju Gothic", "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif; font-size: 24px; font-weight: 400;}
+.learn-more-btn { background: rgba(61, 201, 179, 1); padding: 20px 40px; border-radius: 5px; -moz-border-radius: 5px; -webkit-border-radius: 5px; -o-border-radius: 5px; color: #fff; font-family: "Jeju Gothic", "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif; text-transform: uppercase; letter-spacing: 1px; display: inline-block; -webkit-box-shadow: 0px 3px 0px 0px #309383; -moz-box-shadow: 0px 3px 0px 0px #309383; box-shadow: 0px 3px 0px 0px #309383; margin: 60px 0 0; font-weight: bold; }
 .learn-more-btn:hover, .learn-more-btn:focus { background: rgba(61, 201, 179, 0.6); color: #fff; }
 
 

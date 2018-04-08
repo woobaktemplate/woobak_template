@@ -1,5 +1,6 @@
 (function($) {
 
+// String formatting function
 String.prototype.format = function() {
   var formatted = this
   for (var i = 0; i < arguments.length; i++) {
@@ -9,6 +10,7 @@ String.prototype.format = function() {
   return formatted;
 }
 
+// HTML codes
 var tmp_check_modal = `
 <i class="close icon"></i>
 <div class="header">
@@ -292,10 +294,10 @@ var wt = WebpageTracker()
 AjaxFunctions = function() {
   return {
 
-    get_template_stats: function() {
+    get_template_stats: function(new_tmp_id) {
       $.ajax({
         method: "GET",
-        url: '/api/template-admin/1/',
+        url: '/api/template-admin/' + new_tmp_id + '/',
         success: function(data){
           if (data.total_number > 0) {
             wt.update_template_nums(data.total_number)
@@ -325,7 +327,7 @@ AjaxFunctions = function() {
             'template': template
         },
         success: function(data){
-          // pass
+          console.log(data.id)
         },
         error: function(data){
           console.log(data.status)
@@ -475,15 +477,15 @@ $(document).on('click', '#tmp-translate-btn', function () {
 })
 
 $(document).on('click', '#tmp-save-api-btn', function () {
-    ta.save_template()
-    var counter = 0;
-    var i = setInterval(function() {
-      a.get_template_stats()
-      counter++;
-      if (counter === 5) {
-          clearInterval(i);
-      }
-    }, 300);
+    ta.save_template(a.get_template_stats())
+    // var counter = 0;
+    // var i = setInterval(function() {
+    //   a.get_template_stats()
+    //   counter++;
+    //   if (counter === 5) {
+    //       clearInterval(i);
+    //   }
+    // }, 300);
 })
 
 $(document).on('click', '#check-paginator .item', function () {
