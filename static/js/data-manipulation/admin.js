@@ -32,7 +32,7 @@ var tmp_check_modal = `
     </div>
     <div class="field">
       <label>템플릿</label>
-      <textarea id="check-template-input">{4}</textarea>
+      <textarea id="check-template-input" rows="15">{4}</textarea>
     </div>
   </div>
 </div>
