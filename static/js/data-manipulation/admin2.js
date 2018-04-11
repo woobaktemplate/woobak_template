@@ -127,23 +127,40 @@ var tmp_row = `
 </tr>
 `
 
-var starting_tmp_pagination = `
+// var starting_tmp_pagination = `
+// <div class="ui center aligned grid" style="margin-top: 1rem;">
+//   <div id="check-paginator" class="ui pagination menu">
+//     <a id="go-first-paginator" class="disabled item" value="first">
+//       <i class="angle double left icon"></i>
+//     </a>
+//     <div id="first-btn-paginator" class="active item" value="1">
+//       1
+//     </div>
+//     {0}
+//     <a id="go-end-paginator" class="item" value="end">
+//       <i class="angle double right icon"></i>
+//     </a>
+//   </div>
+// </div>
+// <div id="page-tracker" class="ui center aligned grid" style="margin-top: 1.5rem;">
+//   <h4>(1/{1})</h4>
+// </div>
+// `
+
+var tmp_paginator = `
 <div class="ui center aligned grid" style="margin-top: 1rem;">
   <div id="check-paginator" class="ui pagination menu">
-    <a class="disabled item" value="first">
+    <a id="go-first-paginator" class="item" value="first">
       <i class="angle double left icon"></i>
     </a>
-    <div class="active item" value="1">
-      1
-    </div>
     {0}
-    <a class="item" value="end">
+    <a id="go-end-paginator" class="item" value="end">
       <i class="angle double right icon"></i>
     </a>
   </div>
 </div>
-<div class="ui center aligned grid" style="margin-top: 1.5rem;">
-  <h4>(1/{1})</h4>
+<div id="page-tracker" class="ui center aligned grid" style="margin-top: 1.5rem;">
+  <h4>({1}/{2})</h4>
 </div>
 `
 
@@ -157,27 +174,87 @@ function edit_tmp_msg(msg_title, msg_content) {
   return tmp_edit_msg
 }
 
-function make_first_pagination(total_page_nums) {
-  if (total_page_nums <= 1) {
-    return starting_tmp_pagination.format('', 1)
-  } else if (total_page_nums >= 3) {
+function make_paginator(current_page, total_page_nums) {
+  var current_page = Number(current_page)
+  var total_page_nums = Number(total_page_nums)
+  var leftover_page_nums = total_page_nums - current_page
+  if (leftover_page_nums < 0) {
+    leftover_page_nums = 0
+  }
+  if ((current_page == 1) && (leftover_page_nums == 0)) {
     var addon_paginator = `
-    <a class="item" value="2">
+    <a id="first-btn-paginator" class="active item" value="1">
+      1
+    </a>
+    `
+  } else if ((current_page == 1) && (leftover_page_nums >= 2)) {
+    var addon_paginator = `
+    <a id="first-btn-paginator" class="active item" value="1">
+      1
+    </a>
+    <a id="second-btn-paginator" class="item" value="2">
       2
     </a>
-    <a class="item" value="3">
+    <a id="third-btn-paginator" class="item" value="3">
       3
     </a>
     `
-    return starting_tmp_pagination.format(addon_paginator, total_page_nums)
-  } else {
+  } else if ((current_page == 1) && (leftover_page_nums < 2)) {
     var addon_paginator = `
-    <a class="item" value="2">
+    <a id="first-btn-paginator" class="active item" value="1">
+      1
+    </a>
+    <a id="second-btn-paginator" class="item" value="2">
       2
     </a>
     `
-    return starting_tmp_pagination.format(addon_paginator, total_page_nums)
+  } else if ((current_page == 2) && (leftover_page_nums == 0)) {
+    var addon_paginator = `
+    <a id="first-btn-paginator" class="item" value="1">
+      1
+    </a>
+    <a id="second-btn-paginator" class="active item" value="2">
+      2
+    </a>
+    `
+  } else if ((current_page == 2) && (leftover_page_nums >= 1)) {
+    var addon_paginator = `
+    <a id="first-btn-paginator" class="item" value="1">
+      1
+    </a>
+    <a id="second-btn-paginator" class="active item" value="2">
+      2
+    </a>
+    <a id="third-btn-paginator" class="item" value="3">
+      3
+    </a>
+    `
+  } else if ((current_page >= 3) && (leftover_page_nums >= 1)) {
+    var addon_paginator = `
+    <a id="first-btn-paginator" class="item" value="{0}">
+      {1}
+    </a>
+    <a id="second-btn-paginator" class="active item" value="{2}">
+      {3}
+    </a>
+    <a id="third-btn-paginator" class="item" value="{4}">
+      {5}
+    </a>
+    `.format(current_page-1, current_page-1, current_page, current_page, current_page+1, current_page+1)
+  } else if ((current_page >= 3) && (leftover_page_nums == 0)) {
+    var addon_paginator = `
+    <a id="first-btn-paginator" class="item" value="{0}">
+      {1}
+    </a>
+    <a id="second-btn-paginator" class="item" value="{2}">
+      {3}
+    </a>
+    <a id="third-btn-paginator" class="active item" value="{4}">
+      {5}
+    </a>
+    `.format(current_page-2, current_page-2, current_page-1, current_page-1, current_page, current_page)
   }
+  return tmp_paginator.format(addon_paginator, current_page, total_page_nums)
 }
 
 function create_just_saved_table(page_num) {
@@ -195,7 +272,7 @@ function create_just_saved_table(page_num) {
       }
       var table_html = tmp_section.format(addon_html)
       var total_page_nums = Math.ceil(Number($('#tmp_saved_menu').text())/6)
-      var pagination = make_first_pagination(total_page_nums)
+      var pagination = make_paginator(page_num, total_page_nums)
       section.html(table_html + pagination)
     },
     error: function(data){
@@ -219,7 +296,7 @@ function create_just_checked_table(page_num) {
       }
       var table_html = tmp_section.format(addon_html)
       var total_page_nums = Math.ceil(Number($('#tmp_checked_menu').text())/6)
-      var pagination = make_first_pagination(total_page_nums)
+      var pagination = make_paginator(page_num, total_page_nums)
       section.html(table_html + pagination)
     },
     error: function(data){
@@ -227,6 +304,8 @@ function create_just_checked_table(page_num) {
     }
   })
 }
+
+var tab_type = 'save_tab'
 
 function change_template_action_section(tmp_action_to) {
   $('#tmp-save-btn').removeClass('active teal')
@@ -253,6 +332,7 @@ function change_template_action_section(tmp_action_to) {
     var tmp_edit_msg = edit_tmp_msg('템플릿 문장 수정하기',
                                     '템플릿의 문장을 다시 읽어봐주시고 어색한 영문 표현법이나 잘못된 표현법은 한 번 수정해주세요.')
     msg.html(tmp_edit_msg)
+    tab_type = 'check_tab'
 
   } else if (tmp_action_to == 'TMP_TRANSLATE') {
 
@@ -262,6 +342,7 @@ function change_template_action_section(tmp_action_to) {
     var tmp_edit_msg = edit_tmp_msg('템플릿 번역하기',
                                     '템플릿을 한글로 번역하여 주세요 (구글이나 네이버를 사용하셔서 번역하시면 편합니다).')
     msg.html(tmp_edit_msg)
+    tab_type = 'translate_tab'
 
   }
 }
@@ -402,13 +483,23 @@ function save_check_tmp(tmp_id, category, topic, title, template) {
         'template': template
     },
     success: function(data){
-      // pass
+      create_just_saved_table(1)
     },
     error: function(data){
       console.log('error')
       console.log(data)
     }
   })
+}
+
+function handle_change_page(paginator_btn_id) {
+  var btn_page_num = $(paginator_btn_id).attr('value')
+
+  if (tab_type == 'check_tab') {
+    create_just_saved_table(btn_page_num)
+  } else if (tab_type == 'translate_tab') {
+    create_just_checked_table(btn_page_num)
+  }
 }
 
 
@@ -445,6 +536,38 @@ $(document).on('click', '#check-update', function () {
     var title = $('#check-title-input').val()
     var template = $('#check-template-input').val()
     save_check_tmp(tmp_id, category, topic, title, template)
+})
+
+$(document).on('click', '#go-first-paginator', function () {
+    if (tab_type == 'check_tab') {
+      create_just_saved_table(1)
+    } else if (tab_type == 'translate_tab') {
+      create_just_checked_table(1)
+    }
+})
+
+$(document).on('click', '#go-end-paginator', function () {
+    var page_tracker = $('#page-tracker').text()
+    var page_list = page_tracker.split('/')
+    var last_page = page_list[1].split(')')[0]
+
+    if (tab_type == 'check_tab') {
+      create_just_saved_table(last_page)
+    } else if (tab_type == 'translate_tab') {
+      create_just_checked_table(last_page)
+    }
+})
+
+$(document).on('click', '#first-btn-paginator', function () {
+    handle_change_page('#first-btn-paginator')
+})
+
+$(document).on('click', '#second-btn-paginator', function () {
+    handle_change_page('#second-btn-paginator')
+})
+
+$(document).on('click', '#third-btn-paginator', function () {
+    handle_change_page('#third-btn-paginator')
 })
 
 })(jQuery);
