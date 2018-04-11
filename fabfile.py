@@ -32,6 +32,13 @@ def clean_db_and_test():
     execute(clean_db)
     execute(test)
 
+@task
+def server_reload():
+    local('rm -r static-dist')
+    local('python manage.py collectstatic')
+    local('sudo systemctl restart uwsgi')
+    local('sudo systemctl restart nginx')
+
 ### Github shortcut ###
 
 @task
