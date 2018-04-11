@@ -127,40 +127,20 @@ var tmp_row = `
 </tr>
 `
 
-// var starting_tmp_pagination = `
-// <div class="ui center aligned grid" style="margin-top: 1rem;">
-//   <div id="check-paginator" class="ui pagination menu">
-//     <a id="go-first-paginator" class="disabled item" value="first">
-//       <i class="angle double left icon"></i>
-//     </a>
-//     <div id="first-btn-paginator" class="active item" value="1">
-//       1
-//     </div>
-//     {0}
-//     <a id="go-end-paginator" class="item" value="end">
-//       <i class="angle double right icon"></i>
-//     </a>
-//   </div>
-// </div>
-// <div id="page-tracker" class="ui center aligned grid" style="margin-top: 1.5rem;">
-//   <h4>(1/{1})</h4>
-// </div>
-// `
-
 var tmp_paginator = `
 <div class="ui center aligned grid" style="margin-top: 1rem;">
   <div id="check-paginator" class="ui pagination menu">
-    <a id="go-first-paginator" class="item" value="first">
+    <a id="go-first-paginator" class="{0} item" value="first">
       <i class="angle double left icon"></i>
     </a>
-    {0}
-    <a id="go-end-paginator" class="item" value="end">
+    {1}
+    <a id="go-end-paginator" class="{2} item" value="end">
       <i class="angle double right icon"></i>
     </a>
   </div>
 </div>
 <div id="page-tracker" class="ui center aligned grid" style="margin-top: 1.5rem;">
-  <h4>({1}/{2})</h4>
+  <h4>({3}/{4})</h4>
 </div>
 `
 
@@ -254,7 +234,15 @@ function make_paginator(current_page, total_page_nums) {
     </a>
     `.format(current_page-2, current_page-2, current_page-1, current_page-1, current_page, current_page)
   }
-  return tmp_paginator.format(addon_paginator, current_page, total_page_nums)
+
+  var left_arrow = ''
+  var right_arrow = ''
+  if (current_page == 1) {
+    left_arrow = 'disabled'
+  } else if (current_page == total_page_nums) {
+    right_arrow = 'disabled'
+  }
+  return tmp_paginator.format(left_arrow, addon_paginator, right_arrow, current_page, total_page_nums)
 }
 
 function create_just_saved_table(page_num) {
