@@ -46,7 +46,7 @@ class TemplateStateAPIView(generics.ListCreateAPIView):
     filter_backends = [SearchFilter, OrderingFilter]
 
     def get_queryset(self, *args, **kwargs):
-        queryset = TemplateState.objects.all().order_by('id')
+        queryset = TemplateState.objects.all().order_by('-id')
         saved = self.request.GET.get('saved')
         checked = self.request.GET.get('checked')
         translated = self.request.GET.get('translated')
@@ -57,6 +57,11 @@ class TemplateStateAPIView(generics.ListCreateAPIView):
         if translated:
             queryset = queryset.filter(translated=translated)
         return queryset
+
+
+class TemplateStateDetailAPIView(generics.RetrieveUpdateDestroyAPIView):
+    queryset = TemplateState.objects.all()
+    serializer_class = TemplateStateSerializer
 
 
 class TemplateAdminAPIView(generics.RetrieveAPIView):

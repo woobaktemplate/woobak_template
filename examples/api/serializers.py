@@ -23,7 +23,8 @@ class TemplateStateSerializer(serializers.ModelSerializer):
 
     class Meta:
         model = TemplateState
-        fields = ('topic',
+        fields = ('id',
+                  'topic',
                   'source',
                   'saved',
                   'checked',
