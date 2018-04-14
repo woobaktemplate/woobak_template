@@ -73,21 +73,19 @@ var tmp_translate_modal = `
 var tmp_save_html = `
 <div class="ui form">
   <div class="ui sub header">분류</div>
-  <select id="tmp-type-select" name="skills" class="ui fluid normal dropdown">
+  <select id="tmp-type-select" name="skills" class="ui fluid search dropdown">
     <option value="이메일">이메일</option>
     <option value="프레젠테이션">프레젠테이션</option>
   </select>
-  <div class="ui sub header">카테고리</div>
-  <select id="tmp-category-select" name="category" class="ui fluid search dropdown">
-    <option value="">카테고리</option>
-    {0}
-  </select>
-  <div class="ui sub header">주제</div>
-  <select id="tmp-topic-select" name="topic" class="ui fluid search dropdown">
-    <option value="">주제</option>
-    {1}
-  </select>
-  <div class="field" style="margin-top: 5%;">
+  <div class="field" style="margin-top: 2%;">
+    <label>카테고리</label>
+    <textarea id="category-input" rows="1"></textarea>
+  </div>
+  <div class="field">
+    <label>주제</label>
+    <textarea id="topic-input" rows="1"></textarea>
+  </div>
+  <div class="field">
     <label>제목</label>
     <textarea id="title-input" rows="1"></textarea>
   </div>
@@ -295,48 +293,6 @@ function create_just_checked_table(page_num) {
   })
 }
 
-function get_tmp_types(id_val) {
-  var section = $('#tmp-action-section')
-  $.ajax({
-    method: "GET",
-    url: '/api/template-type/' + id_val + '/',
-    success: function(data){
-      console.log(data)
-      var categories = data.categories
-      var topics = data.topics
-      var category_opt = ''
-      var topic_opt = ''
-      for (var i=0; i<categories.length; i++) {
-        category_opt = category_opt + `<option value="{0}">{1}</option>`.format(categories[i], categories[i])
-      }
-      for (var j=0; j<topics.length; j++) {
-        topic_opt = topic_opt + `<option value="{0}">{1}</option>`.format(topics[j], topics[j])
-      }
-      var complete_tmp_save_html = tmp_save_html.format(category_opt, topic_opt)
-      section.html(complete_tmp_save_html)
-      $('.ui.dropdown').dropdown()
-      $('.ui.normal.dropdown').dropdown({maxSelections: 1})
-    },
-    error: function(data){
-      console.log(data.status)
-    }
-  })
-}
-
-function format_tmp_save_html(tmp_save_html) {
-  $.ajax({
-    method: "GET",
-    url: '/api/template/',
-    success: function(data){
-      var id_val = data.results[0].id
-      get_tmp_types(id_val)
-    },
-    error: function(data){
-      console.log(data.status)
-    }
-  })
-}
-
 var tab_type = 'save_tab'
 
 function change_template_action_section(tmp_action_to) {
@@ -346,10 +302,11 @@ function change_template_action_section(tmp_action_to) {
   $('#tmp_saved_menu').removeClass('left pointing teal')
   $('#tmp_checked_menu').removeClass('left pointing teal')
 
+  var section = $('#tmp-action-section')
   var msg = $('#tmp-edit-msg')
   if (tmp_action_to == 'TMP_SAVE') {
 
-    format_tmp_save_html(tmp_save_html)
+    section.html(tmp_save_html)
     $('#tmp-save-btn').addClass('active teal')
     var tmp_edit_msg = edit_tmp_msg('템플릿 입력하기',
                                     '템플릿의 카테고리 (이메일, 프레젠테이션 등)을 입력하신 후 그 템플릿의 주제와 내용만 저장하여 주세요.')
@@ -461,8 +418,8 @@ function save_template_ajax(template_type, category, topic, title, template) {
 
 function save_template() {
   var template_type = $('#tmp-type-select').val()
-  var category = $('#tmp-category-select').val()
-  var topic = $('#tmp-topic-select').val()
+  var category = $('#category-input').val()
+  var topic = $('#topic-input').val()
   var title = $('#title-input').val()
   var template = $('#template-input').val()
   save_template_ajax(template_type, category, topic, title, template)

@@ -117,39 +117,27 @@
 
         <div id="tmp-action-section" class="ten wide column">
           <div class="ui form">
-
             <div class="ui sub header">분류</div>
-            <select id="tmp-type-select" name="skills" class="ui fluid normal dropdown">
+            <select id="tmp-type-select" name="skills" class="ui fluid search dropdown">
               <option value="이메일">이메일</option>
               <option value="프레젠테이션">프레젠테이션</option>
             </select>
-
-            <div class="ui sub header">카테고리</div>
-            <select id="tmp-category-select" name="category" class="ui fluid search dropdown">
-              <option value="">카테고리</option>
-              {% for category in tmp_categories %}
-                <option value="{{ category }}">{{ category }}</option>
-              {% endfor %}
-            </select>
-
-            <div class="ui sub header">주제</div>
-            <select id="tmp-topic-select" name="topic" class="ui fluid search dropdown">
-              <option value="">주제</option>
-              {% for topic in tmp_topics %}
-                <option value="{{ topic }}">{{ topic }}</option>
-              {% endfor %}
-            </select>
-
-            <div class="field" style="margin-top: 5%;">
+            <div class="field" style="margin-top: 2%;">
+              <label>카테고리</label>
+              <textarea id="category-input" rows="1"></textarea>
+            </div>
+            <div class="field">
+              <label>주제</label>
+              <textarea id="topic-input" rows="1"></textarea>
+            </div>
+            <div class="field">
               <label>제목</label>
               <textarea id="title-input" rows="1"></textarea>
             </div>
-
             <div class="field">
               <label>템플릿</label>
               <textarea id="template-input"></textarea>
             </div>
-
           </div>
           <button id="tmp-save-api-btn" class="fluid teal ui button" style="margin-top: 1rem;">저장하기</button>
         </div>
@@ -332,9 +320,7 @@
     <script type="text/javascript" src="{% static 'vendor/semantic-ui/semantic.min.js' %}"></script>
     <script type="text/javascript" src="{% static 'js/data-manipulation/admin.js' %}"></script>
     <script type="text/javascript">
-    $('.ui.accordion').accordion()
-    $('.ui.dropdown').dropdown()
-    $('.ui.normal.dropdown').dropdown({maxSelections: 1})
+    $('.ui.accordion').accordion();
     </script>
 
   </body>
