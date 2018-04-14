@@ -37,12 +37,18 @@ class AdminEditView(View):
     def get(self, request, *args, **kwargs):
         tmp_total_num = TemplateState.objects.all().count()
         tmp_done_num = Template.objects.filter(done=True).count()
+
+        tmp_categories = [category[0] for category in set(Template.objects.values_list('category'))]
+        tmp_topics = [topic[0] for topic in set(Template.objects.values_list('topic'))]
         context = {
             'tmp_saved': TemplateState.objects.filter(saved=True).count(),
             'tmp_checked': TemplateState.objects.filter(checked=True).count(),
             'tmp_total_num': tmp_total_num,
             'tmp_done_num': tmp_done_num,
             'tmp_in_progress_num': tmp_total_num - tmp_done_num,
+
+            'tmp_categories': tmp_categories,
+            'tmp_topics': tmp_topics
 
         }
         return render(request, 'admin_edit.html', context)

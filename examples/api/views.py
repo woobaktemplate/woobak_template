@@ -6,6 +6,7 @@ from examples.api.serializers import (
     TemplateSerializer,
     TemplateStateSerializer,
     TemplateAdminSerializer,
+    TemplateTypeSerializer,
 )
 
 from utils.paginations import StandardResultPagination, EditingPagination
@@ -67,3 +68,8 @@ class TemplateStateDetailAPIView(generics.RetrieveUpdateDestroyAPIView):
 class TemplateAdminAPIView(generics.RetrieveAPIView):
     queryset = TemplateState.objects.all()
     serializer_class = TemplateAdminSerializer
+
+
+class TemplateTypeAPIView(generics.RetrieveAPIView):
+    queryset = Template.objects.all()
+    serializer_class = TemplateTypeSerializer

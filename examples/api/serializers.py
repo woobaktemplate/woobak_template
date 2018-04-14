@@ -68,3 +68,19 @@ class TemplateAdminSerializer(serializers.ModelSerializer):
 
     def get_template_translated(self, obj):
         return TemplateState.objects.filter(checked=True).count()
+
+
+class TemplateTypeSerializer(serializers.ModelSerializer):
+    categories = serializers.SerializerMethodField()
+    topics = serializers.SerializerMethodField()
+
+    class Meta:
+        model = Template
+        fields = ('categories',
+                  'topics',)
+
+    def get_categories(self, obj):
+        return [category[0] for category in set(Template.objects.values_list('category'))]
+
+    def get_topics(self, obj):
+        return [topic[0] for topic in set(Template.objects.values_list('topic'))]
