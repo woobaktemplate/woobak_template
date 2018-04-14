@@ -461,8 +461,8 @@ function save_template_ajax(template_type, category, topic, title, template) {
 
 function save_template() {
   var template_type = $('#tmp-type-select').val()
-  var category = $('#category-input').val()
-  var topic = $('#topic-input').val()
+  var category = $('#tmp-category-select').val()
+  var topic = $('#tmp-topic-select').val()
   var title = $('#title-input').val()
   var template = $('#template-input').val()
   save_template_ajax(template_type, category, topic, title, template)
