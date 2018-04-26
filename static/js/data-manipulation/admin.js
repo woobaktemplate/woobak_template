@@ -53,17 +53,22 @@ var tmp_translate_modal = `
   템플릿 번역
 </div>
 <div class="content">
-  <div class="description">
-    <div class="ui header">We've auto-chosen a profile image for you.</div>
-    <p>We've grabbed the following image from the <a href="https://www.gravatar.com" target="_blank">gravatar</a> image associated with your registered e-mail address.</p>
-    <p>Is it okay to use this photo?</p>
+  <div class="ui form">
+    <div class="field">
+      <label>템플릿</label>
+      <textarea id="check-template-input" rows="10">{0}</textarea>
+    </div>
+    <div class="field">
+      <label>번역</label>
+      <textarea id="check-template-input" rows="10"></textarea>
+    </div>
   </div>
 </div>
 <div class="actions">
-  <div class="ui black deny button">
+  <div class="ui black deny button" api-id="{1}">
     삭제
   </div>
-  <div class="ui positive right labeled icon button">
+  <div class="ui positive right labeled icon button" api-id="{2}">
     수정완료
     <i class="checkmark icon"></i>
   </div>
@@ -255,7 +260,7 @@ function create_just_saved_table(page_num) {
       var res = data.results
       var addon_html = ''
       for (var i=0; i<res.length; i++) {
-        var row = tmp_row.format(res[i].template_type, res[i].category, res[i].created, res[i].id, res[i].id)
+        var row = tmp_row.format(res[i].template_type, res[i].topic, res[i].created, res[i].id, res[i].id)
         addon_html = addon_html + row
       }
       var table_html = tmp_section.format(addon_html)
@@ -502,6 +507,79 @@ function save_check_tmp(tmp_id, category, topic, title, template) {
   })
 }
 
+function create_tmp_translate_modal(tmp_id) {
+  $.ajax({
+    method: "GET",
+    url: '/api/template/' + tmp_id + '/',
+    success: function(data){
+      var modal_html = tmp_translate_modal.format(data.template, data.id, data.id)
+      $('#tmp-modal').html(modal_html)
+      $('#tmp-modal').modal('show')
+    },
+    error: function(data){
+      console.log(data.status)
+    }
+  })
+}
+
+function approve_tmp_translate(tmp_id) {
+  // change state first
+  $.ajax({
+    type: "PUT",
+    dataType: "json",
+    url: '/api/template-state/' + tmp_id + '/',
+    data: {
+        'checked': 0,
+        'translated': 1
+    },
+    success: function(data){
+      console.log('changed to checked')
+      get_template_stats()
+      create_just_checked_table(1)
+    },
+    error: function(data){
+      console.log('error')
+      console.log(data)
+    }
+  })
+}
+
+function delete_translate_tmp(tmp_id, after_effect_func1, after_effect_func2) {
+  $.ajax({
+    type: "DELETE",
+    url: '/api/template/' + tmp_id + '/',
+    success: function(data){
+      after_effect_func1('TMP_TRANSLATE')
+      after_effect_func2()
+    },
+    error: function(data){
+      console.log('error')
+      console.log(data)
+    }
+  })
+}
+
+function save_translate_tmp(tmp_id, category, topic, title, template) {
+  $.ajax({
+    type: "PUT",
+    dataType: "json",
+    url: '/api/template/' + tmp_id + '/',
+    data: {
+        'category': category,
+        'topic': topic,
+        'title': title,
+        'template': template
+    },
+    success: function(data){
+      create_just_checked_table(1)
+    },
+    error: function(data){
+      console.log('error')
+      console.log(data)
+    }
+  })
+}
+
 function handle_change_page(paginator_btn_id) {
   var btn_page_num = $(paginator_btn_id).attr('value')
 
@@ -531,17 +609,29 @@ $(document).on('click', '#tmp-save-api-btn', function () {
 
 $(document).on('click', '#check-edit', function () {
     var tmp_id = $(this).attr('api-id')
-    create_tmp_check_modal(tmp_id)
+    if (tab_type == 'check_tab') {
+      create_tmp_check_modal(tmp_id)
+    } else if (tab_type == 'translate_tab') {
+      create_tmp_translate_modal(tmp_id)
+    }
 })
 
 $(document).on('click', '#check-approve', function () {
     var tmp_id = $(this).attr('api-id')
-    approve_tmp_check(tmp_id)
+    if (tab_type == 'check_tab') {
+      approve_tmp_check(tmp_id)
+    } else if (tab_type == 'translate_tab') {
+      approve_tmp_translate(tmp_id)
+    }
 })
 
 $(document).on('click', '#check-delete', function () {
     var tmp_id = $(this).attr('api-id')
-    delete_check_tmp(tmp_id, change_template_action_section, get_template_stats)
+    if (tab_type == 'check_tab') {
+      delete_check_tmp(tmp_id, change_template_action_section, get_template_stats)
+    } else if (tab_type == 'translate_tab') {
+      delete_translate_tmp(tmp_id, change_template_action_section, get_template_stats)
+    }
 })
 
 $(document).on('click', '#check-update', function () {

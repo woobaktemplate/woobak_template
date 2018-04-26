@@ -1,0 +1,71 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+    <link rel="icon" href="{% static 'favicon.ico' %}">
+    <title>관리자 페이지</title>
+    <!-- Semantic UI CSS -->
+    <link rel="stylesheet" href="{% static 'vendor/semantic-ui/semantic.min.css' %}">
+    <!-- Font Awesome CSS  -->
+    <link rel="stylesheet" href="{% static 'css/font-awesome.min.css' %}">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="{% static 'css/tmp-page.css' %}">
+  </head>
+
+  <body>
+
+    <div class="ui container">
+      <div class="s-layout">
+        <!-- Sidebar -->
+        <div class="s-layout__sidebar">
+          <a class="s-sidebar__trigger" href="#0">
+             <i class="fa fa-bars"></i>
+          </a>
+
+          <nav class="s-sidebar__nav">
+             <ul>
+                <li>
+                   <a class="s-sidebar__nav-link" href="#0">
+                      <i class="fa fa-home"></i><em>홈</em>
+                   </a>
+                </li>
+                <li>
+                   <a class="s-sidebar__nav-link" href="#0">
+                     <i class="fa fa-user"></i><em>템플릿 모음</em>
+                   </a>
+                </li>
+                <li>
+                   <a class="s-sidebar__nav-link" href="#0">
+                      <i class="fa fa-camera"></i><em>내 템플릿</em>
+                   </a>
+                </li>
+             </ul>
+          </nav>
+        </div>
+
+        <!-- Content -->
+        <div class="s-layout__content">
+          <div class="ui breadcrumb">
+            <a class="section">Home</a>
+            <span class="divider">/</span>
+            <a class="section">Registration</a>
+            <span class="divider">/</span>
+            <div class="active section">Personal Information</div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- jQuery + Semantic UI JS -->
+    <script type="text/javascript" src="{% static 'js/jquery-3.2.1.min.js' %}"></script>
+    <script type="text/javascript" src="{% static 'vendor/semantic-ui/semantic.min.js' %}"></script>
+    <script type="text/javascript" src="{% static 'js/data-manipulation/tmp-page.js' %}"></script>
+    <script type="text/javascript">
+
+    </script>
+
+  </body>
+</html>

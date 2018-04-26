@@ -3,7 +3,7 @@ from django.conf.urls import include, url
 from django.conf.urls.static import static
 from django.contrib import admin
 
-from .views import HomeView, IndexView, AboutView, AdminEditView
+from .views import HomeView, IndexView, AboutView, AdminEditView, MainView
 
 urlpatterns = [
     url(r'^admin/', admin.site.urls),
@@ -11,6 +11,7 @@ urlpatterns = [
     url(r'^$', HomeView.as_view(), name='home'),
     url(r'^index/$', IndexView.as_view(), name='index'),
     url(r'^about/$', AboutView.as_view(), name='about'),
+    url(r'^main/$', MainView.as_view(), name='main'),
 
     url(r'^api/', include('restapi.urls', namespace='api')),
 ]

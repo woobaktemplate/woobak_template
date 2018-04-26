@@ -25,12 +25,17 @@ class HomeView(View):
 
 class IndexView(View):
     def get(self, request, *args, **kwargs):
-        return render(request, 'index.html', {})
+        return render(request, 'index2.html', {})
 
 
 class AboutView(View):
     def get(self, request, *args, **kwargs):
         return render(request, 'about.html', {})
+
+
+class MainView(View):
+    def get(self, request, *args, **kwargs):
+        return render(request, 'main.html', {})
 
 
 class AdminEditView(View):

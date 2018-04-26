@@ -49,3 +49,7 @@ def lazy_commit():
     local('git push')
 
 ### Management shorcuts ###
+
+@task
+def db_backup():
+    run('su woobak -c "psql -c \"\copy examples_template to \'/home/woobak/template_backup.csv\' delimiter \',\';\""')

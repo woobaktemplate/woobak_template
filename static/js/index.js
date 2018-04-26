@@ -20,11 +20,12 @@ var step_two_code = `
     <div class="card">
 
       <div class="card-block">
-        <h4 class="card-title text-center dropdown dropbtn">기본 이메일 템플렛</h4>
-        <div class="dropdown-content">
-          <a href="#">Link 1</a>
-          <a href="#">Link 2</a>
-          <a href="#">Link 3</a>
+        <h4 class="card-title text-center">기본 이메일 템플렛</h4>
+        <div class="dropdown card-title-btn-container">
+          <button class="btn btn-sm btn-subtle dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"><em class="fa fa-clone"></em></button>
+          <div class="dropdown-menu dropdown-menu-right" aria-labelledby="dropdownMenuButton"><a class="dropdown-item" href="#"><em class="fa fa-search mr-1"></em> More info</a>
+            <a class="dropdown-item" href="#"><em class="fa fa-thumb-tack mr-1"></em> Pin Window</a>
+            <a class="dropdown-item" href="#"><em class="fa fa-remove mr-1"></em> Close Window</a></div>
         </div>
         <hr>
 

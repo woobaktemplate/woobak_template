@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-size: 100%;
+}
+
+/* Navigation section */
+.navigation {
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #3DC9B3;
+  justify-content: space-between;
+}
+
+.navigation div {
+  display: flex;
+  align-items: center;
+  height: 3.5rem;
+}
+
+.nav-logo {
+  justify-content: flex-start;
+  margin-left: 1.5rem;
+  color: white;
+}
+
+.nav-menu {
+  justify-content: flex-end;
+  margin-right: 1.5rem;
+  color: white;
+}
+
+/* Selection section */
+.selection {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.selection-card {
+  width: 90%;
+  height: 300px;
+  background-color: black;
+  margin-top: 1.5rem;
+  border-radius: 3px;
+
+}
